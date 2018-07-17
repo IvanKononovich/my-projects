@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Hotels</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/normalize.css">
+	<script src="js/script.js" defer></script>
+</head>
+<body>
+	<section class="container-full">
+		<header class="clearfix">
+			<div>
+				<a href="#" class="header-information">информация</a>
+			</div>
+			<div>
+				<a href="#" class="header-photo-video">фото и видио</a>
+			</div>
+			<div class="logo-header"></div>
+			<div>
+				<a href="#" class="header-maps">карта штата</a>
+			</div>
+			<div>
+				<a href="#" class="header-hotel">гостиницы</a>
+			</div>
+		</header>
+		<main>
+			<section class="main-filters clearfix"> 
+				<form action="" class="filters clearfix">
+					<div class="infrastructure">
+						<h4 class="title-infrastructure">инфраструктура:</h4>
+						<input type="checkbox" name="pool" id="pool">
+						<label for="pool">бассейн</label>
+						<input type="checkbox" name="parking-place" id="parking-place">
+						<label for="parking-place">парковка</label>
+						<input type="checkbox" name="wi-fi" id="wi-fi">
+						<label for="wi-fi">wi-fi</label>
+					</div>
+					<div class="type-of-accommodation">
+						<h4 class="title-type-of-accommodation">тип жилья:</h4>
+						<input type="checkbox" name="hotel" id="hotel">
+						<label for="hotel">бассейн</label>
+						<input type="checkbox" name="motel" id="motel">
+						<label for="motel">парковка</label>
+						<input type="checkbox" name="apartments" id="apartments">
+						<label for="apartments">wi-fi</label>
+					</div>
+					<div class="cost-filter">
+						<h4 class="title-cost-filter">стоимость в сутки (р):</h4>
+						<div class="price-range clearfix">
+							<div class="from"><input type="text" id="price-filter-start" value="от: 0$"></div>
+							<div class="to"><input type="text" id="price-filter-end" value="до: 370$"></div>
+						</div>
+						<div class="range-cost-filter">
+							<div class="circle left" id="circleleft"></div>
+							<div class="circle right" id="circleright"></div>
+							<div class="line" id="line-range"></div>
+							<div class="line-not-active"></div>
+						</div>	
+						<input type="submit" value="показать" class="form-submit">	
+					</div>
+				</form>	
+			</section>
+			<section class="sort-result">
+				<div class="filter clearfix">
+					<ul>
+						<li class="found"><a href="">найдено: 3</a></li>
+						<li class="sort"><a href="">сортировка:</a></li>
+						<li class="by-price active criterion"><a href="">по цене</a></li>
+						<li class="by-type criterion"><a href="">по типу</a></li>
+						<li class="by-rating criterion"><a href="">по рейтингу</a></li>
+					</ul>
+					<div class="ascending"></div>
+					<div class="descendingly"></div>
+				</div>
+				<div class="search-result-column one clearfix">
+					<div class="photo">
+						
+					</div>
+					<div class="information">
+						<h2>Amara Resort & Spa</h2>
+						<span class="type-of-building">гостиница</span>
+						<span class="price">от 3500р.</span>
+						<a href="" class="more-info">подробнее</a>
+						<button class="book-it">забронировать</button>
+					</div>
+					<div class="rating">
+						<div class="stars"></div>
+						<span class="rating-score">рейтинг:8,5</span>
+					</div>
+				</div>
+				<div class="search-result-column two clearfix">
+					<div class="photo">
+						
+					</div>
+					<div class="information">
+						<h2>Amara Resort & Spa</h2>
+						<span class="type-of-building">гостиница</span>
+						<span class="price">от 3500р.</span>
+						<a href="" class="more-info">подробнее</a>
+						<button class="book-it">забронировать</button>
+					</div>
+					<div class="rating">
+						<div class="stars"></div>
+						<span class="rating-score">рейтинг:8,5</span>
+					</div>
+				</div>
+				<div class="search-result-column tree clearfix">
+					<div class="photo">
+						
+					</div>
+					<div class="information">
+						<h2>Amara Resort & Spa</h2>
+						<span class="type-of-building">гостиница</span>
+						<span class="price">от 3500р.</span>
+						<a href="" class="more-info">подробнее</a>
+						<button class="book-it">забронировать</button>
+					</div>
+					<div class="rating">
+						<div class="stars"></div>
+						<span class="rating-score">рейтинг:8,5</span>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer>
+			<div class="visitsedona">
+				<a href="">#visitSEDONA</a>
+			</div>
+			<div class="social-groups">
+				<a href="" class="tv"></a>
+				<a href="" class="fb"></a>
+				<a href="" class="youtube"></a>
+			</div>
+			<div class="creators">
+				<a href="" class="creator">website by</a>
+				<a href="" class="from">for</a>
+			</div>
+		</footer>
+	</section>
+</body>
+</html>
