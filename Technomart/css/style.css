@@ -1440,6 +1440,7 @@ main.catalog .list-of-goods .info {
 	animation-duration: 0.6s;
 }
 .modal-content-map {
+	z-index: 10;
 	position: fixed;
 	display: none;
 	top: 50%;
@@ -1449,7 +1450,13 @@ main.catalog .list-of-goods .info {
 	height: 600px;
 	box-shadow: 0 0 20px 0 #c4c3c4;
 }
-
+.modal-content-map::before {
+	content: "";
+	display: block;
+	height: 40px;
+	border-top: 5px solid #ee3643;
+	background-color: #fff;
+}
 .i-forgot {
 	font-size: 14px;
 	line-height: 1.71;

@@ -190,9 +190,11 @@ var shiftX = 0;
 var parentOffset;
 var currentCircle;
 var x;
-var rangeWidth = rangeRight.getBoundingClientRect().width;
+
 
 if(rangeRight && rangeLeft) {
+
+	var rangeWidth = rangeRight.getBoundingClientRect().width;
 
 	function initialization(){
 
@@ -254,18 +256,15 @@ if(rangeRight && rangeLeft) {
 	// function feedBack(e){
 	// 	this.addEventListener("keyup", function(){
 	// 		inputNow = this;
-	// 		clearTimeout(feedbackTimeId);
-	// 		feedbackTimeId = setTimeout( function(){
-	// 			rangeLeftX = rangeLeft.getBoundingClientRect().left - rangeLeft.closest(".range").getBoundingClientRect().left - rangeWidth;
-	// 			rangeRightX = rangeRight.getBoundingClientRect().left - rangeRight.closest(".range").getBoundingClientRect().left -  rangeWidth;
+	// 		rangeLeftX = rangeLeft.getBoundingClientRect().left - rangeLeft.closest(".range").getBoundingClientRect().left - rangeWidth;
+	// 		rangeRightX = rangeRight.getBoundingClientRect().left - rangeRight.closest(".range").getBoundingClientRect().left -  rangeWidth;
 
-	// 			x = parseInt(inputNow.value)/200;
-	// 			if(x > 180) x = 180;
-	// 			if(x < 20) x = 20;
-	// 			whereWeAre = inputNow;
-	// 			initialization();
-	// 		}, 500);
-	// 	});
+	// 		x = parseInt(inputNow.value)/200;
+	// 		if(x > 180) x = 180;
+	// 		if(x < 20) x = 20;
+	// 		whereWeAre = inputNow;
+	// 		initialization();
+	// 	});	
 	// };
 
 

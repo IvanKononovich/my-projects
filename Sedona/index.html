@@ -7,12 +7,14 @@
 	<link rel="stylesheet" href="css/normalize.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+	<link rel="icon" href="img/logo.png">
+	<script src="js/script.js" defer></script>
 </head>
 <body>
 	<section class="container-full">
 		<header class="clearfix">
 			<div>
-				<a href="#" class="header-information">информация</a>
+				<a href="index.html" class="header-information">информация</a>
 			</div>
 			<div>
 				<a href="#" class="header-photo-video">фото и видио</a>
@@ -22,7 +24,7 @@
 				<a href="#" class="header-maps">карта штата</a>
 			</div>
 			<div>
-				<a href="#" class="header-hotel">гостиницы</a>
+				<a href="hotels.html" class="header-hotel">гостиницы</a>
 			</div>
 		</header>
 		<main>
@@ -96,6 +98,21 @@
 				<p>Укажите предполагаемые даты поездки <br>
 				 и мы покажем вам лучшие предложения гостиниц в седоне</p>
 				<a href="#" class="search-for-hotels">поиск гостиниц в седоне</a>
+				<div class="search-for-hotels-popup">
+					<form action="" class="clearfix">
+						<div class="column">
+							<label for="data-arrival">Дата заезда:</label>
+							<label for="data-exit">Дата выезда:</label>
+							<label for="adulthood" >взрослые:</label>
+						</div>
+						<input type="data" id="data-arrival" class="data-calendar">
+						<input type="data" id="data-exit" class="data-calendar">
+						<input type="text" id="children" class=" adulthood">
+						<input type="text" id="adulthood" class=" children">
+						<label for="children"  class="children-label ">дети:</label>
+						<input type="button" class="search" value="найти">
+					</form>
+				</div>
 				<div class="modal-content-map">
 					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2352.884503330162!2d27.426660015912695!3d53.86270168009045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbda6644459535%3A0xf7d8fce9d87b8ed6!2z0YPQuy4g0KHQu9C-0LHQvtC00YHQutCw0Y8gMywg0JzQuNC90YHQug!5e0!3m2!1sru!2sby!4v1522415299481" width="100%" height="590px" frameborder="0" style="border:0" allowfullscreen></iframe>	
 				</div>
@@ -103,18 +120,19 @@
 		</main>
 		<footer>
 			<div class="visitsedona">
-				<a href="">#visitSEDONA</a>
+				<a href="#">#visitSEDONA</a>
 			</div>
 			<div class="social-groups">
-				<a href="" class="tv"></a>
-				<a href="" class="fb"></a>
-				<a href="" class="youtube"></a>
+				<a href="#" class="tv"></a>
+				<a href="#" class="fb"></a>
+				<a href="#" class="youtube"></a>
 			</div>
 			<div class="creators">
-				<a href="" class="creator">website by</a>
-				<a href="" class="from">for</a>
+				<a href="#" class="creator">website by</a>
+				<a href="#" class="from">for</a>
 			</div>
 		</footer>
 	</section>
+
 </body>
 </html>
