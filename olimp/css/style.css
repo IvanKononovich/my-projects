@@ -3,16 +3,27 @@ body, html, ul, li {
 	margin: 0;
 }
 body {
+	position: relative;
 	background-color: #000;
-	font-family: "Gilroy";
+	font-family: "Gilroy-Regular";
 }
 .clearfix::after {
 	content: "";
 	display: table;
 	clear: both;
 }
-header, main {
+header, main ,footer {
+	z-index: 5;
+	min-width: 1127px;
 	padding: 0 160px;
+}
+@media screen and (max-width: 1200px) {
+	header, main, footer {
+		padding: 0 80px;
+	}	
+}
+footer {
+	height: 100%;
 }
 header a {
 	text-decoration: none;
@@ -21,6 +32,7 @@ header a {
 }
 
 .partners {
+	z-index: 5;
 	min-width: 400px;
 	position: relative;
 	float: left;
@@ -41,12 +53,11 @@ header a {
 	padding-right: 10px;
 }
 .authorization {
+	z-index: 5;
 	font-weight: 700;
 	font-family: PT Mono;
 	position: relative;
-	width: 31%;
-	max-width: 200px;
-	min-width: 175px;
+	width: 200px;
 	float: right;
 }
 .authorization::after {
@@ -58,7 +69,7 @@ header a {
 	border-radius: 5px;
 	background-color: #fff;
 	top: 50%;
-	left: 36%;
+	left: 66px;
 	transform: translate(-50%, -50%);
 }
 .login {
@@ -69,7 +80,7 @@ header a {
 }
 .rostelecom {
 	font-size: 18px;
-	font-weight: 700;
+	font-weight: 400;
 }
 .sirius {
 	display: block;
@@ -100,14 +111,12 @@ main {
 	position: relative
 }
 .olimp-title {
-	position: absolute;
-	top: 0;
-	left: 50%;
-	transform: translateX(-50%);
+	float: left;
+	margin-left: 175px;
 }
 .olimp-title h1 {
-	font-weight: 400;
-	font-family: Gilroy;
+	font-weight: 700;
+	font-family: Gilroy-Bold;
 	margin: 0;
 	font-size: 109px;
 	line-height: 115px;
@@ -115,7 +124,7 @@ main {
 }
 .olimp-title h3 {
 	font-weight: 400;
-	font-family: Gilroy;
+	font-family: Gilroy-SemiBold;
 	margin: 0;
 	padding-top:50px;
 	font-size: 35px;
@@ -132,8 +141,9 @@ main {
 	letter-spacing: 1.5px;
 }
 .before-the-end {
+	z-index: 5;
 	position: absolute;
-	bottom: -333px;
+	bottom: 0;
     right: 160px;
 	padding: 0 44px;
 	background-color: #00bbbb;
@@ -148,14 +158,16 @@ main {
 	margin-bottom: 0;
 }
 .before-the-end  h2 {
-	font-family: Gilroy;
+	font-family: Gilroy-Bold;
 	margin: 0;
 	font-size: 42px;
 	line-height: 104px;
 	letter-spacing: 0.9px;
 	font-weight: 700;
 }
-
+.particles-js-canvas-el {
+	z-index: 1;
+}
 
 
 
