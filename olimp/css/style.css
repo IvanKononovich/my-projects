@@ -3,9 +3,22 @@ body, html, ul, li {
 	margin: 0;
 }
 body {
+	background-image: linear-gradient(to top, rgba(216, 216, 216, 0.1) , black 170px);
 	position: relative;
 	background-color: #000;
 	font-family: "Gilroy-Regular";
+}
+html,
+body {
+  height: 100%;
+}
+.wrapper {
+  display: table;
+  height: 100%;
+}
+.content {
+  display: table-row;
+  height: 100%;
 }
 .clearfix::after {
 	content: "";
@@ -20,6 +33,9 @@ header, main ,footer {
 @media screen and (max-width: 1200px) {
 	header, main, footer {
 		padding: 0 80px;
+	}
+	footer .before-the-end  {
+	 	right: 80px;
 	}	
 }
 footer {
@@ -80,7 +96,7 @@ header a {
 }
 .rostelecom {
 	font-size: 18px;
-	font-weight: 400;
+	font-weight: 700;
 }
 .sirius {
 	display: block;
@@ -91,6 +107,8 @@ header a {
 	right: 0;
 	transform: translateY(-50%);
 	background: url("../img/sirius.png") no-repeat 50% 50%;
+	-webkit-background-size: cover;
+	background-size: cover;
 }
 .nav {
 	padding-top: 27px;
@@ -130,7 +148,6 @@ main {
 	font-size: 35px;
 	line-height: 47px;
 	color: #00bbbb;
-	text-transform: uppercase;
 }
 .olimp-title p {
 	font-size: 16px;
