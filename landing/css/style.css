@@ -1,0 +1,369 @@
+body, html, ul, li {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.clearfix::after{
+	content: "";
+	display: table;
+	clear: both;
+}
+main, footer {
+	padding: 0 20px;
+	max-width: 1230px;
+	box-sizing: border-box;
+	margin: 0 auto;
+}
+header {
+	min-height: 500px;
+}
+a {
+	transition: 0.3s;
+	text-decoration: none;
+
+}
+a:hover {
+	opacity: 0.6;
+}
+.language {
+	background-color: #fff;
+	padding: 0 100px;
+	border-bottom: 2px solid #d8d8d8;
+	list-style-type: none;
+}
+.language li {
+	float: right;
+}
+.language a, .nav a  {
+	display: inline-block;
+	color: black;
+	text-transform: uppercase;
+	font-weight: bold;
+	line-height: 30px;
+	padding: 10px;
+}
+.language a {
+	line-height: 10px;
+}
+.nav {
+	background-color: #fff;
+	list-style-type: none;
+}
+.nav-menu {
+	float: right;
+	list-style-type: none;
+}
+.nav .logo {
+	text-transform: uppercase;
+	font-weight: bold;
+	line-height: 29px;
+	padding: 10px;
+	font-size: 20px;
+	float: left;
+}
+.nav li {
+	float: right;
+}
+.video-wrapper {
+	min-height: 300px; 
+	position: relative;
+}
+video {
+	z-index: 1;
+	position: relative;
+	width: 100%;
+	height: auto;
+	background-color: black;
+    object-fit: fill;	
+}
+.arrow-bottom {
+	z-index: 2;
+	width: 35px;
+	position: absolute;
+	bottom: 65px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+header .arrow-bottom {
+	bottom: 85px;
+}
+@media screen and (max-width: 720px) {
+	.video-wrapper video {
+		display: none;
+	}
+	.language, .nav {
+		padding: 0;
+	}
+	header .arrow-bottom {
+   		bottom: 40px;
+	}
+}	
+
+.menu-show {
+	margin-right: 10px;
+	margin-top: 5px;
+	float: right;
+	display: none;
+	padding-top: 0.1px;
+	height: 35px;
+	width: 50px;
+	background-color: #000;
+	text-align: center;
+}
+.icon-bar {
+    display: block;
+    width: 40px;
+    height: 2px;
+    background-color: #fff;
+    border: none;
+    margin: 0 auto;
+    margin-top: 7px;
+}
+@media screen and (max-width: 480px) {
+	.nav {
+		padding: 0;
+	}
+	.nav li ,.nav .logo {
+		float: none;
+	}
+	.nav a {
+		color: white;
+		line-height: 15px;
+	}
+	.nav .logo {
+		float: left;
+		line-height: 15px; 
+		padding: 10px;
+		width: 50%;
+	}
+	.nav-menu {
+		padding-bottom: 5px;
+		position: relative;
+		width: 36%;
+	}
+	.nav .menu-show {
+		display: block;
+		float: right;
+	}
+
+	.nav-menu li:not(.menu-show) {
+
+		display: none;
+	}
+}
+.nav-menu li.menuHideContent {
+	display: block;
+}
+.nav .logoShow {
+	display: block;
+	width: 100%;
+	float: none;
+}	
+
+.nav-menu .toggle {
+	position: absolute;
+	top: -45px;
+	right: 0px;
+}
+.menuShow {
+	margin-top: 10px;
+	width: 100%;
+	float: none;
+	background-color: #000;
+}
+.menuShowContent {
+	display: block;
+	border-bottom: 2px solid #f1f1f1;
+}
+@media screen and (min-width: 730px) {
+	.nav {
+		padding: 0 100px;
+	}
+}
+.arrow-bottom::after {
+	position: absolute;
+	content: "";
+	display: block;
+	width: 10px;
+	background-color: #d8d8d8;
+	height: 40px;
+	top: 0;
+	right: 0;
+	transform: rotate(50deg);	
+}
+.arrow-bottom::before {
+	position: absolute;
+	content: "";
+	display: block;
+	width: 10px;
+	background-color: #d8d8d8;
+	height: 40px;
+	top: 0;
+	left: 0;
+	transform: rotate(-50deg);	
+}
+.title {
+	margin-top: 0;
+	text-align: center;
+	position: relative;
+	font-size: 35px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.title::after {
+	position: absolute;
+	content: "";
+	display: block;
+	width: 90px;
+	height: 3px;
+	bottom: -5px;
+	left: 50%;
+	transform: translateX(-50%);
+	background-color: black;
+}
+.about-us-bg {
+	position: relative;
+	min-height: 500px;
+	background: #717171 url("../img/about-us-bg.jpg") no-repeat 50% 50%;
+	-webkit-background-size: cover;
+	background-size: cover;
+	
+}
+.about-us-text {
+	position: absolute;
+	top: 50%;
+	right: 30px;
+	transform: translateY(-50%);
+	width: 40%;
+	background-color: #eae9e9;
+	padding: 10px;
+}
+.about-us-info {
+	margin-bottom: 50px;
+}
+.container-project {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+@media screen and (max-width: 1110px) {
+	.container-project {
+		justify-content: space-around;
+	}
+}
+@media screen and (max-width: 720px) {
+	.about-us-text {
+		width: 90%;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+	.about-us-bg {
+		background: none;
+		background-color: #ffffff;
+	}
+}
+.project-image {
+	overflow: hidden;
+	position: relative;
+	width: 30%;
+	min-width: 300px;
+	max-width: 400px;
+	height: 300px;
+	margin-bottom: 20px;
+	position: relative;
+	background-color: #d8d8d8;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.project-description {
+	position: absolute;
+	width: 100%;
+	height: 300px;
+	background-color: #fffdfd;
+	bottom: -100%;
+	transition: 0.5s;
+	opacity: 0.7;
+}
+.project-description p {
+	font-size: 20px;
+	padding: 10px;
+}
+
+.project-image:hover .project-description {
+	bottom: 0;
+}
+.contact-text p {
+	color: #656565;
+	text-align: center;
+	font-size: 17px;
+}
+.contact-link {
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+	background-color: #d8d8d8;
+}
+.social-networks {
+	display: flex;
+	justify-content: space-between;
+}		
+.social-networks a {
+	display: block;
+	float: left;
+	width: 40px;
+	height: 40px;
+	margin: 0 10px;
+	background-color: #717171;
+}
+.social-networks .inst {
+	background: url("../img/inst.png") no-repeat 50% 50%;
+	-webkit-background-size: cover;
+	background-size: cover;	
+}
+.social-networks .fb {
+	background: url("../img/fb-icon.png") no-repeat 50% 50%;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.social-networks .youtube {
+	background: url("../img/youtube.png") no-repeat 50% 50%;
+	-webkit-background-size: cover;
+	background-size: cover;	
+}
+.mail a {
+	display: block;
+	color: black;
+	line-height: 25px;
+}
+@media screen and (max-width: 500px) {
+	.contact-link {
+		display: block;	
+	}
+	.social-networks {
+		margin-bottom: 20px;
+		display: flex;
+		justify-content: space-between;
+	}
+	.mail {
+		text-align: center;
+		width: 100%;
+	}
+}
+@media screen and (max-width: 320px) {
+	footer, header, main {
+		padding: 0;
+	}
+}
+.fixed-menu {
+	width: 100%;
+	position: fixed;
+	z-index: 5;
+	top: 0;
+	box-shadow: 0 0 15px 5px #888888;
+}
+.our-projects, .about-us-info {
+	padding-top: 100px;
+}
