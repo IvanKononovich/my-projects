@@ -294,7 +294,7 @@ main {
 
 
 }
-.input-column input:not(:nth-child(4)) {
+.input-column input:not(#password) {
 	border-bottom: none;
 }
 .registration {
@@ -312,7 +312,8 @@ main {
     line-height: 30px;
     display: block;
     position: absolute;
-    left: -45px;
+    left: -50px;
+    top: -3px;
     width: 30px;
     height: 30px;
     color: #fff;
@@ -321,11 +322,13 @@ main {
     bottom: 30px;
 }
 .footer-reg {
-	text-align: center;
+	text-align: right;
 }
 .footer-reg label {
 	cursor: pointer;
 	text-align: left;
+	width: 460px;
+	box-sizing: border-box;
 	display: inline-block;
 	margin-top: 36px;
 	position: relative;
@@ -335,6 +338,10 @@ main {
 	font-weight: 400;
 	letter-spacing: 1.3px;
 	color: #ffffff;
+}
+.footer-reg span {
+	display: inline-block;
+	width: 100%;
 }
 .column .align {
 	margin-top: 68px;
@@ -392,8 +399,6 @@ main {
   	transition: border-color 0.3s;	
 	border-color: #bb0000;
 }
-#password {
-}
 .hide-password {
 	position: absolute;
 	cursor: pointer;
@@ -405,8 +410,16 @@ main {
 	-webkit-background-size: 18px 15px;
 	background-size: 18px 15px;	
 }
-
-
+form.login  .hide-password {
+	top: 83%;
+}
+form.login {
+	width: 540px;
+	box-sizing: border-box;
+}
+form.login .input-column input:last-child {
+	border: border: 2px solid #1a1a1a;;
+}
 
 
 
