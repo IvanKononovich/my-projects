@@ -62,6 +62,9 @@ header, main ,footer {
 	header, main, footer {
 		padding: 0 100px;
 	}
+	.wrapper .before-the-end  {
+	 	right: 100px;
+	}
 }	
 @media screen and (max-width: 1200px) {
 	header, main, footer {
@@ -286,7 +289,7 @@ main {
 	float: left;
 }
 .input-column input {
-
+	margin-top: -2px;
 	padding: 0 26px;
 	color: white;
 	width: 460px;
@@ -299,9 +302,6 @@ main {
   	font-weight: 700;
 
 
-}
-.input-column input:not(#password) {
-	border-bottom: none;
 }
 .registration {
 	min-height: 490px;
@@ -385,7 +385,7 @@ form.login .footer-reg label::before {
 	font-weight: 700;
   	font-size: 16px;
 	line-height: 80px;
-	padding: 0 55px 0 34px;
+	padding:  0 34px;
   	height: 80px;
   	color: #000;
   	letter-spacing: 1.894737px;
@@ -405,7 +405,7 @@ form.login .footer-reg label::before {
 	line-height: 24px;
 	border-bottom: 2px dotted #00bbbb;
 }
-.error-reg {
+form .error-reg {
   	transition: border-color 0.3s;	
 	border-color: #bb0000;
 }
@@ -417,8 +417,8 @@ form.login .footer-reg label::before {
 	width: 18px;
 	height: 15px;
 	background: url("../img/hide-password.png") no-repeat 50% 50%;
-	-webkit-background-size: 18px 15px;
-	background-size: 18px 15px;	
+	-webkit-background-size: 27px 27px;
+	background-size: 27px 27px;	
 }
 form.login  .hide-password {
 	top: 83%;
@@ -428,7 +428,7 @@ form.login {
 	box-sizing: border-box;
 }
 form.login .input-column input:last-child {
-	border: border: 2px solid #1a1a1a;;
+	border: 2px solid #1a1a1a;
 }
 .help-align-auth {
 	max-width: 296px;
@@ -799,6 +799,9 @@ form.login .input-column input:last-child {
 	line-height: 34px;
 	letter-spacing: 1.59px;
 	margin: 46px 0 0 0; 
+}
+.olimp-title.rules h1 {
+	font-size: 60px;
 }
 .constraints {
 	float: left;
