@@ -51,6 +51,7 @@ footer {
 	clear: both;
 }
 header, main ,footer {
+	box-sizing: border-box;
 	z-index: 5;
 	min-width: 1127px;
 	max-width: 1400px;
