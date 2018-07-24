@@ -430,11 +430,62 @@ form.login .input-column input:last-child {
 	margin-top: 134px;
 }
 .column-help {
-	max-width: 435px;
+	max-width: 481px;
 }
-
-
-
+.auth-ok {
+	padding: 0 20px;
+	position: relative;
+	margin: 0 auto;
+	margin-top: 140px;
+	width: 760px;
+	box-sizing: border-box;
+	background-color: #00bbbb;
+	padding: 65px 100px;
+	color: white;
+}
+.auth-ok .title-reg {
+	line-height: 50px;
+	font-family: Gilroy-Bold;
+	font-weight: 700;
+	letter-spacing: 1.5px;
+	font-size: 60px;
+	margin: 0;
+}
+.auth-ok  p {
+	font-family: PT Mono;
+	font-size: 17px;
+	font-weight: 700;
+	line-height: 34px;
+	letter-spacing: 1.6px;
+}
+.auth-ok .ok {
+	margin-top: 20px;
+	line-height: 80px;
+	font-family: PT Mono;
+	font-size: 18px;
+	font-weight: 700;
+	letter-spacing: 1.9px;
+	border: none;
+	cursor: pointer;
+	background-color: #fff;
+	padding: 0 63px 0 42px;	
+}
+.auth-ok::after {
+	color: #000;
+	line-height: 38px;
+	cursor: pointer;
+	position: absolute;
+	top: 65px;
+	right: 55px;
+	content: "x";
+	display: block;
+	width: 38px;
+	border: 2px solid #1a1a1a;
+	height: 38px;
+	border-radius: 50%;
+	font-size: 20px;
+	text-align: center;	
+}
 
 
 
