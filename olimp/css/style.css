@@ -54,7 +54,7 @@ footer {
 header, main ,footer {
 	box-sizing: border-box;
 	z-index: 5;
-	min-width: 1127px;
+	min-width: 1240px;
 	max-width: 1400px;
 	padding: 0 160px;
 }
@@ -74,7 +74,11 @@ header a {
 	color: #ffff;
 	line-height: 110px;
 }
-
+@media screen and (max-width: 1360px) {
+	header, main, footer {
+		padding: 0 100px;
+	}
+}	
 .partners {
 	z-index: 5;
 	min-width: 400px;
@@ -515,7 +519,7 @@ form.login .input-column input:last-child {
 .bread-crumbs a {
 	font-family: PT Mono;
 	font-size: 16px;
-	font-weight: 700px;
+	font-weight: 700;
 	letter-spacing: 1.5px;
 	line-height: 50px;
 	color: #333333;
@@ -524,7 +528,7 @@ form.login .input-column input:last-child {
 .container-olimp-info {
 	z-index: 5;
 	float: left;
-	max-width: 861px;
+	max-width: 821px;
 	margin-left: 103px;
 }
 .competition-format {
@@ -554,6 +558,10 @@ form.login .input-column input:last-child {
 	float: left;
 	width: 861px;
 	box-sizing: border-box;
+	background: rgba(0, 187, 187, 0.9) url("../img/bitmap.png") no-repeat 50% 50%;
+	-webkit-background-size: cover;
+	background-size: cover;		
+
 }
 .category {
 	padding-top: 44px;
@@ -561,11 +569,9 @@ form.login .input-column input:last-child {
 	float: left;
 	border: 1px solid #000000;
 	box-sizing: border-box;
-	width: 285px;
+	width: 287px;
 	height: 246px;
-	background: rgba(0, 187, 187, 0.9) url("../img/bitmap.png") no-repeat 50% 50%;
-	-webkit-background-size: cover;
-	background-size: cover;	
+
 }
 .category h4 {
 	margin: 0;
@@ -682,7 +688,6 @@ form.login .input-column input:last-child {
 .organizers-logo .title-organizers {
 	margin: 0;
 	color: #ffffff;
-	font-family: PT Mono;
 	font-size: 22px;
 	font-weight: 700;
 	line-height: 177px;
