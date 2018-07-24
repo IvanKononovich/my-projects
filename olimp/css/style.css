@@ -34,7 +34,7 @@ body {
 .wrapper {
 	background-image: linear-gradient(to top, rgba(216, 216, 216, 0.1) , black 170px);			
 	z-index: 5;
-  	height: 100vh;
+  	min-height: 100vh;
 }
 .content {
 	position: relative;
@@ -356,7 +356,7 @@ form.login .footer-reg label::before {
 .help-align-reg {
 	padding-left: 140px;
 	margin-top: 68px;
-	max-width: 351px;
+	max-width: 490px;
 	float: right;
 }
 
@@ -436,18 +436,23 @@ form.login .input-column input:last-child {
 	margin-top: 134px;
 }
 .column-help {
-	max-width: 481px;
+	max-width: 490px;
 }
 .auth-ok {
+	position: absolute;
+	top: 140px;
+	left: 50%;
+	transform: translateX(-50%);
 	padding: 0 20px;
-	position: relative;
 	margin: 0 auto;
-	margin-top: 140px;
 	width: 760px;
 	box-sizing: border-box;
 	background-color: #00bbbb;
 	padding: 65px 100px;
 	color: white;
+}
+.wrapper.wrapper-auth-ok {
+	position: relative;
 }
 .auth-ok .title-reg {
 	line-height: 50px;
