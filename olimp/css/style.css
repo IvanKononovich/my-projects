@@ -307,12 +307,12 @@ main {
 	position: relative;
 }
 .footer-reg label::before {
-    content: "";
+	content: "";
     text-align: center;
     line-height: 30px;
     display: block;
     position: absolute;
-    left: 0;
+    left: -47px;
     top: -3px;
     width: 30px;
     height: 30px;
@@ -320,6 +320,9 @@ main {
     border: 2px solid #1a1a1a;
     background-color: transparent;
     bottom: 30px;
+}
+form.login .footer-reg label::before {
+	left: 0;
 }
 .footer-reg {
 	text-align: right;
@@ -345,8 +348,9 @@ main {
 	padding-left: 45px;
 }
 .help-align-reg {
+	padding-left: 140px;
 	margin-top: 68px;
-	max-width: 410px;
+	max-width: 351px;
 	float: right;
 }
 
@@ -370,7 +374,7 @@ main {
 	cursor: pointer;
 	margin-bottom: 10px;
 	position: relative;
-	margin-top: 18px;
+	margin-top: 45px;
 	font-family: PT Mono;
 	font-weight: 700;
   	font-size: 16px;
@@ -421,11 +425,13 @@ form.login .input-column input:last-child {
 	border: border: 2px solid #1a1a1a;;
 }
 .help-align-auth {
-	max-width: 410px;
+	max-width: 296px;
 	float: right;
 	margin-top: 134px;
 }
-
+.column-help {
+	max-width: 435px;
+}
 
 
 
