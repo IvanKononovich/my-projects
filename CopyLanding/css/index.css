@@ -1,0 +1,385 @@
+/* ::::: http://musclemannew1.best-gooods.ru/css/style.css ::::: */
+html, body, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a, del, em, img, small, u, center, dl, dt, dd, ol, ul, li, form, label, table, tbody, tfoot, thead, tr, th, td { margin: 0px; padding: 0px; border: 0px none; font: inherit; }
+@font-face {
+	font-family: "pf_square_sans_proregular";
+	font-style: normal;
+	font-weight: normal;
+	src:  url('../fonts/pfsquaresanspro-regular-webfont.woff') format("woff"), url('../fonts/pfsquaresanspro-regular-webfont.ttf') format("truetype");
+}
+@font-face {
+	font-family: "pf_square_sans_promedium";
+	font-style: normal;
+	font-weight: normal;
+	src: url('../fonts/pfsquaresanspro-medium-webfont.woff') format("woff"), url('../fonts/pfsquaresanspro-medium-webfont.ttf') format("truetype");
+}
+@font-face {
+	font-family: "pf_square_sans_probold";
+	font-style: normal;
+	font-weight: normal;
+	src: url('../fonts/pfsquaresanspro-bold-webfont.woff') format("woff"), url('../fonts/pfsquaresanspro-bold-webfont.ttf') format("truetype");
+}
+* { box-sizing: border-box; }
+
+/* ::::: http://musclemannew1.best-gooods.ru/css/slides.css ::::: */
+#slideshowWrapper {position: relative; width: 960px; margin: 0 auto;}
+#slideshow, #slideshow li {width: 800px; height: 275px;}
+#slides { position: relative; margin: 50px auto 0px; width: 880px; }
+#slides img { display: block; }
+#slides .picture { float: left; width: 275px; margin-right: 15px; }
+#slides .topic { display: block; font-size: 18px; text-transform: uppercase; font-family: "pf_square_sans_probold","Myriad Pro",Arial; margin-bottom: 30px; }
+#slides .comment { float: left; width: 590px; height: 275px; padding: 30px 20px; background: rgb(255, 255, 255) url('../files/bg_comment.jpg') no-repeat scroll 524px 23px; }
+#slides .slide { width: 100%; height: 275px; }
+#slides .slidesNext, #slides .slidesPrevious { position: absolute; top: 50%; margin-top: -15px; left: -40px; width: 18px; height: 30px; display: block; z-index: 101; overflow: hidden; background: transparent url('../files/slide_prev.png') no-repeat scroll 0px 0px; text-indent: 36px; }
+#slides .slidesNext { left: auto; right: -40px; background: transparent url('../files/slide_next.png') no-repeat scroll 0px 0px; }
+.slidesPagination { margin: 30px auto 0px; width: 87px; }
+.slidesPagination li { float: left; margin: 0px 5px; list-style: outside none none; }
+
+
+#fssList      {width: 75px;/* margin: 30px auto; */position: relative;left: 50%;transform: translateX(-50%);}
+#fssList li a {float: left; font-size: 0; margin: 0 3px 0 3px; width: 19px; height: 19px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; overflow: hidden; border-radius: 100%; text-indent: 38px; }
+#fssList .fssActive a {background: rgb(169, 51, 242) none repeat scroll 0 0; }
+
+#slideshow {margin: 20px auto;}
+#fssPlayPause {display: none;}
+.comment {
+	float: left;
+	width: 510px;
+	height: 275px;
+	padding: 20px 20px;
+	background: #fff url('../files/bg_comment.jpg') no-repeat scroll 524px 23px;
+}
+.topic {
+	display: block;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-family: "pf_square_sans_probold","Myriad Pro",Arial;
+	margin-bottom: 20px;
+}
+.picture {
+	float: left;
+	width: 275px;
+	margin-right: 15px;
+}
+#fssPrev, #fssNext {
+	position: absolute;
+    top: 107px;
+	font-size: 0;
+	left: 40px;
+	width: 18px;
+	height: 30px;
+	display: block;
+	z-index: 101;
+	overflow: hidden;
+	background: transparent url('../files/slide_prev.png') no-repeat scroll 0px 0px;
+	text-indent: 36px;
+}
+#fssPrev {
+	position: absolute;
+	height: 30px;
+	min-height: 30px;
+	display: block;
+	z-index: 101;
+	background: transparent url('../files/slide_prev.png') no-repeat scroll 0px 0px;
+	text-indent: 36px;
+}
+#fssNext {
+	left: auto;
+	right: 40px;
+	background: transparent url('../files/slide_next.png') no-repeat scroll 0px 0px;
+}
+
+
+
+ol, ul { list-style: outside none none; }
+input { margin: 0px; border: 0px none; outline: medium none; }
+table { border-collapse: collapse; border-spacing: 0px; }
+table th {width: 30%;}
+input::-moz-placeholder, textarea:-moz-placeholder { opacity: 1; }
+.btn-order { display: inline-block; width: 245px; height: 62px; line-height: 62px; text-align: center; background: transparent url('../files/bg_btn_order.png') no-repeat scroll 0% 0%; font-family: "pf_square_sans_probold","Myriad Pro",Arial; font-size: 30px; text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.3); text-decoration: none; text-transform: uppercase; color: rgb(255, 255, 255); }
+.btn-submit { display: block; width: 290px; height: 62px; line-height: 62px; text-align: center; background: transparent url('../files/bg_btn_submit.png') no-repeat scroll 0% 0%; font-family: "pf_square_sans_probold","Myriad Pro",Arial; font-size: 30px; text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.3); text-decoration: none; text-transform: uppercase; color: rgb(255, 255, 255); cursor: pointer; }
+body { background: rgb(0, 0, 0) url('../files/bg_head.jpg') no-repeat scroll 50% 0px; height: 100%; font-family: "pf_square_sans_proregular","Myriad Pro",Arial; font-size: 18px; line-height: 1; min-width: 320px; }
+.head { position: relative; width: 960px; height: 870px; margin: 0px auto; padding-top: 40px; color: rgb(255, 255, 255); }
+.head .title-1 { position: relative; margin-top: 10px; padding: 10px 0px 15px 25px; }
+.head .title-1::before { content: ""; display: block; position: absolute; width: 3px; height: 100%; left: 0px; background: transparent linear-gradient(0deg, rgb(161, 51, 242) 0%, rgb(80, 192, 255) 100%) repeat scroll 0% 0%; }
+.head .slogan { position: relative; height: 43px; float: right; text-align: right; padding-right: 18px; line-height: 20px; }
+.head .slogan::before { content: ""; display: block; position: absolute; width: 3px; height: 100%; right: 0px; background: transparent linear-gradient(0deg, rgb(161, 51, 242) 0%, rgb(80, 192, 255) 100%) repeat scroll 0% 0%; }
+.head .brand { font-family: "pf_square_sans_probold","Myriad Pro",Arial; font-size: 80px; padding: 20px 0px 15px; }
+.head .application { font-size: 26px; line-height: 1.1em; padding-bottom: 20px; }
+.head .features { background: transparent url('../files/ico_features.jpg') no-repeat scroll 0% 0%; position: absolute; top: 440px; left: -20px; padding: 20px 0px 0px 80px; }
+.head .features div { margin-bottom: 52px; font-size: 21px; line-height: 1.1em; }
+.head .features div:last-child {margin-bottom: 32px;}
+.head .features span { font-family: "pf_square_sans_probold","Myriad Pro",Arial; }
+.head .order { font-size: 21px; text-align: center; position: absolute; top: 540px; right: 0px; }
+.head .order .topic { font-size: 26px; font-family: "pf_square_sans_probold","Myriad Pro",Arial; padding-bottom: 5px; }
+.head .order .price { padding: 20px 0px 40px; }
+.head .order .current { font-size: 32px; padding-left: 5px; font-family: "pf_square_sans_promedium","Myriad Pro",Arial; }
+.head .order .old { text-decoration: line-through; }
+.main { background: transparent url('../files/bg_main.png') no-repeat scroll 50% 0px; background-size: cover; margin-top: -62px; padding-bottom: 25px;}
+.main .content { width: 960px; min-height: 1303px; margin: 0px auto; padding-top: 130px; }
+.main .content .title { font-family: "pf_square_sans_promedium","Myriad Pro",Arial; font-size: 40px; text-align: center; position: relative; margin: 0px auto; text-transform: uppercase; color: rgb(34, 34, 34); }
+.main .content .title::before { content: ""; display: block; width: 38%; height: 3px; position: absolute; top: 47px; left: 0px; }
+.main .content .title::after {content: "";display: block;width: 38%;height: 3px;position: absolute;top: 47px;right: 0px;}
+.main .content .title span { display: block; width: 272px; font-family: "pf_square_sans_probold","Myriad Pro",Arial; position: relative; margin: 0 auto; }
+.main .content .graph { text-align: center; padding: 40px 0px 20px; }
+.main .content .useful_properties .item { min-height: 130px; padding: 40px 0px 0px 145px; margin-top: -10px; }
+.main .content .useful_properties .item:nth-child(2n) { margin-left: 170px; }
+.main .content .useful_properties .topic { font-family: "pf_square_sans_probold","Myriad Pro",Arial; text-transform: uppercase; font-size: 18px; margin-bottom: 15px; color: rgb(34, 34, 34); }
+.main .content .useful_properties .ico-1 { background: transparent url('../files/ico_1.png') no-repeat scroll 0% 0%; }
+.main .content .useful_properties .ico-2 { background: transparent url('../files/ico_2.png') no-repeat scroll 0% 0%; }
+.main .content .useful_properties .ico-3 { background: transparent url('../files/ico_3.png') no-repeat scroll 0% 0%; }
+.main .content .useful_properties .ico-4 { background: transparent url('../files/ico_4.png') no-repeat scroll 0% 0%; }
+.main .content .useful_properties .ico-5 { background: transparent url('../files/ico_5.png') no-repeat scroll 0% 0%; }
+.you-need { background: transparent url('../files/bg_you_need.jpg') no-repeat scroll center center; height: 500px; }
+.you-need .content { width: 960px; margin: 0px auto; padding-top: 65px; }
+.you-need .content .title { font-family: "pf_square_sans_promedium","Myriad Pro",Arial; font-size: 40px; text-align: center; position: relative; margin: 0px auto; text-transform: uppercase; color: rgb(255, 255, 255); }
+.you-need .content .title::before { content: ""; display: block; width: 28%; height: 3px; position: absolute; top: 28px; left: 0px; }
+.you-need .content .title::after { content: ""; display: block; width: 28%; height: 3px; position: absolute; top: 28px; right: 0px; }
+.you-need .content .title span { display: block; font-family: "pf_square_sans_probold","Myriad Pro",Arial; position: relative; }
+.you-need .content .items { overflow: hidden; color: rgb(255, 255, 255); margin-top: 45px; }
+.you-need .content .items div { float: left; height: 90px; width: 50%; padding: 25px 0px 0px 100px; margin-bottom: 25px; }
+.you-need .content .items .ico_1 { background: transparent url('../files/ico_6.png') no-repeat scroll 0% 0%; }
+.you-need .content .items .ico_2 { background: transparent url('../files/ico_7.png') no-repeat scroll 0% 0%; }
+.you-need .content .items .ico_3 { background: transparent url('../files/ico_8.png') no-repeat scroll 0% 0%; }
+.you-need .content .items .ico_4 { background: transparent url('../files/ico_9.png') no-repeat scroll 0% 0%; }
+.form-order { background: transparent url('../files/bg_form_order.jpg') no-repeat scroll center center; height: 660px; }
+.form-order .content { width: 860px; margin: 0px auto; color: rgb(255, 255, 255); padding-top: 50px; text-align: center; }
+.form-order .title { font-family: "pf_square_sans_promedium","Myriad Pro",Arial; font-size: 40px; margin-bottom: 20px; text-transform: uppercase; line-height: 1.2em; }
+.form-order .title span { font-family: "pf_square_sans_probold","Myriad Pro",Arial; display: block; }
+.form-order .container { position: relative; padding-top: 10px; }
+.form-order .container::after { content: ""; display: block; height: 0px; clear: both; }
+.form-order .column-left { position: relative; float: left; width: 326px; }
+.form-order .column-left .tov-1 { position: relative; width: 326px; height: 370px; background: transparent url('../files/tov-1.png') no-repeat scroll center top; }
+.form-order .column-left .price { position: absolute; width: 120px; text-align: center; right: 0px; top: 33px; line-height: 1.5em; }
+.form-order .column-right { position: relative; float: right; width: 320px; margin-left: 90px; }
+.form-order form { margin-top: 10px; }
+.form-order .price { margin-bottom: 20px; }
+.form-order .old { font-size: 18px; text-decoration: line-through; }
+.form-order .current { font-family: "pf_square_sans_promedium","Myriad Pro",Arial; font-size: 30px; }
+input[type="text"], select { display: block; width: 100%; height: 54px; line-height: 54px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; border-radius: 3px; margin-bottom: 20px; text-indent: 20px; font-size: 18px; }
+.timer_wrap { position: relative; height: 120px; }
+.method-preparing { background: transparent url('../files/bg_brick.jpg') repeat scroll 0% 0%; padding-bottom: 30px;}
+.method-preparing .content { width: 960px; margin: 0px auto; padding-top: 45px; }
+.method-preparing .title { font-family: "pf_square_sans_probold","Myriad Pro",Arial; font-size: 40px; text-align: center; position: relative; margin: 0px auto 5px; text-transform: uppercase; color: rgb(34, 34, 34); }
+.method-preparing .title::before { content: ""; display: block; width: 30%; height: 3px; position: absolute; top: 36px; left: 0; }
+.method-preparing .title::after { content: ""; display: block; width: 30%; height: 3px; position: absolute; top: 36px; right: 0; }
+.method-preparing .title span { display: block; font-family: "pf_square_sans_promedium","Myriad Pro",Arial; position: relative; }
+.method-preparing .item { background: transparent url('../files/ico_10.png') no-repeat scroll 0% 0%; padding: 35px 0px 0px 170px; }
+.method-preparing p { padding-bottom: 45px; }
+.method-preparing th { font-family: "pf_square_sans_probold","Myriad Pro",Arial; font-size: 15px; text-transform: uppercase; text-align: left; padding-bottom: 30px; color: rgb(34, 34, 34); }
+.method-preparing td { padding-bottom: 10px; font-size: 15px; }
+.method-preparing table span { display: inline-block; border-bottom: 1px dotted rgb(162, 162, 162); float: right; margin: 8px 8px 0px 0px; }
+.method-preparing .line-width-1 { width: 132px; }
+.method-preparing .line-width-2 { width: 257px; }
+.method-preparing .line-width-3 { width: 257px; }
+.method-preparing .line-width-4 { width: 232px; }
+.reviews { background: transparent url('../files/bg_reviews.jpg') no-repeat scroll center center; height: 538px; }
+.reviews .content { width: 960px; margin: 0px auto; padding-top: 65px; }
+.reviews .title { font-family: "pf_square_sans_probold","Myriad Pro",Arial; font-size: 40px; text-align: center; position: relative; margin: 0px auto 5px; text-transform: uppercase; color: rgb(255, 255, 255); }
+.reviews .title::before { content: ""; display: block; width: 33%; height: 3px; position: absolute; top: 16px; left: 0px; }
+.reviews .title::after { content: ""; display: block; width: 33%; height: 3px; position: absolute; top: 16px; right: 0px; }
+.working { background: transparent url('../files/bg_brick.jpg') repeat scroll 0% 0%; padding-bottom: 40px; }
+.working .content { width: 960px; margin: 0px auto; padding-top: 65px; }
+.working .title {font-family: "pf_square_sans_probold","Myriad Pro",Arial; font-size: 40px; text-align: center; position: relative; margin: 0px auto 40px; text-transform: uppercase; color: rgb(34, 34, 34); }
+.working .title::before { content: ""; display: block; width: 28%; height: 3px; position: absolute; top: 16px; left: 0px; }
+.working .title::after { content: ""; display: block; width: 28%; height: 3px; position: absolute; top: 16px; right: 0px; }
+.working .items { overflow: hidden; text-align: center; }
+.working .item { float: left; width: 150px; margin-left: 52px; }
+.working .item:first-child { margin: 0px; }
+.working img { margin-bottom: 25px; }
+.footer { background: #000!important;color: #fff!important; }
+.delivery { text-align: left; padding-left: 25px; margin-top: -10px; }
+.title::before { background: transparent linear-gradient(90deg, rgb(161, 51, 242) 0%, rgb(80, 192, 255) 100%) repeat scroll 0% 0%; }
+.title::after { background: transparent linear-gradient(270deg, rgb(161, 51, 242) 0%, rgb(80, 192, 255) 100%) repeat scroll 0% 0%; }
+.center { text-align: center; }
+.working .center { padding-top: 30px; }
+/* ::::: http://musclemannew1.best-gooods.ru/js/TimeCircles.css ::::: */
+
+.time_circles { position: relative; width: 100%; height: 100%; }
+.time_circles > div { position: absolute; text-align: center; }
+.time_circles > div > h4 { margin: 0px; padding: 0px; text-align: center; text-transform: uppercase; font-family: "Century Gothic",Arial; color: rgb(255, 255, 255); }
+.time_circles > div > span { display: block; width: 100%; text-align: center; font-family: "Century Gothic",Arial; font-size: 300%; font-weight: 400; line-height: 1.2em; color: rgb(255, 255, 255); }
+
+
+.form-order .column-right .order {position: absolute; left: -200px; top: 50%;}
+.form-order .column-right .order .price {margin-top: 20px;}
+
+@media screen and (max-width: 991px) {
+
+	.head, .main .content, .you-need .content, .method-preparing .content, .reviews .content, .working .content {width: 720px;}
+	body {background-position-x: 63%;}
+	.head .brand {font-size: 50px;} 
+	.head .application {font-size: 20px;}
+	.main .content .title {font-size: 30px;}
+	.main .content .title span {width: 192px;}
+	.main .content .title::before, .main .content .title::after {top: 31px;}
+	.main .content .useful_properties .item:nth-child(2n) {margin-left: 71px;}
+	.form-order {height: auto; background-position: top 30px center;}
+	.form-order .column-left .tov-1 { width: 300px; height: 380px; background: transparent url('../files/tov-1-m.png') no-repeat scroll center top; }
+	.form-order .content {width: 100%;padding-bottom: 30px;}
+	.form-order .column-left, .form-order .column-right {float: none; width: auto;}
+	.form-order .column-left .tov-1, #lv-form {margin: 0 auto;}
+	.form-order .column-right {margin-left: 0;margin-top: 30px;}
+	.form-order .column-right .order {position: static; margin: 30px auto}
+	.delivery {padding-left: 0;text-align: center;}
+	table {margin-left: -50px;}
+	table th {width: 30%;}
+
+	.working .title::before, .working .title::after, .you-need .content .title::before, .you-need .content .title::after {width: 21%;}
+	.reviews .title::before, .reviews .title::after {width: 28%;}
+	.method-preparing .title::before, .method-preparing .title::after {width: 23%;}
+
+	.working .items .item {width: 30%; display: inline-block; float: none; margin-left: 0;margin-bottom: 25px; vertical-align: top;}
+	.main .content .useful_properties .item {min-height: 135px;}
+
+	
+	.reviews {min-height: 700px; height: auto; background-size: cover; padding-bottom: 1px;}
+	#slideshowWrapper {width: 100%;}
+	#slideshow {
+		width: 100%;
+		min-height: 500px;
+		height: auto;
+	}
+	#slideshow li {
+		width: 100%;
+		left: 50%;
+		transform: translateX(-50%);
+		text-align: center;
+	}
+	.picture {float: none; margin-right: 0;}
+	.comment {float: none;width: 100%; height: auto; min-height: 220px; background: #fff;}
+	.comment span.topic {text-align: center;}
+
+	#fssPrev {left: 130px;}
+	#fssNext {right: 130px;}
+
+	#fssPrev, #fssNext {top: 120px;}
+
+}
+
+@media screen and (max-width: 767px) {
+
+	.head, .main .content, .you-need .content, .method-preparing .content, .reviews .content, .working .content {width: 540px;}
+	body {background-position-x: 49%;}
+	.head .features {position: relative; top: initial;}
+	.head .order {position: relative; top: initial; margin-top: 45px;}
+	.main .content {padding-top: 90px;}
+	.main .content .title {font-size: 24px;}
+	.graph img {max-width: 100%;}
+	.main .content .useful_properties .item {min-height: 160px;}
+	.main .content .useful_properties .item:nth-child(2n) {margin-left: 0;}
+
+	.working .title, .method-preparing .title, .reviews .title, .form-order .title, .you-need .content .title {font-size: 36px;}
+
+	.reviews .title::before, .reviews .title::after {width: 24%;}
+	.working .title::before, .working .title::after {width: 15%;}
+	.method-preparing .title::before, .method-preparing .title::after {width: 17%;}
+
+	.method-preparing .item {
+		-webkit-background-size: 130px 130px;
+		background-size: 130px 130px;
+		padding-left: 150px;
+		padding-top: 25px;
+	}
+
+	table {margin-left: -90px;}
+
+	.you-need .content .title::before, .you-need .content .title::after {display: none;}
+	.working .items .item img {max-width: 130px;}
+	
+
+	/*fon checknut'*/
+	.reviews .title::before, .reviews .title::after {top: 10px; width: 24%;}
+	#fssPrev, #fssNext {top: 293px;}
+
+	#fssPrev {left: 30px;}
+	#fssNext {right: 30px;}
+
+	.reviews {min-height: 780px;}
+	#slideshow {min-height: 580px;}
+	.comment {min-height: 300px;}
+
+}
+
+@media screen and (max-width: 575px) {
+	.head, .main .content, .you-need .content, .method-preparing .content, .reviews .content, .working .content {width: 100%;padding-left: 10px;padding-right: 10px;}
+	.working .title, .method-preparing .title, .reviews .title, .form-order .title, .you-need .content .title {font-size: 32px;}
+	body {background-position-x: 55%;}
+	.head .brand {font-size: 36px;}	
+	.head .features {background-position-y: 20px; padding-top: 40px;}
+	.head .slogan {margin-bottom: 15px;}
+	.main .content .title {font-size: 20px;}
+	.main .content .title span {width: 180px;}
+	.main .content .title::before, .main .content .title::after {top: 26px;}
+	.main .content .useful_properties .item {min-height: 168px; font-size: 16px;}
+	.you-need .content .items {font-size: 16px;}
+	.method-preparing .title::before, .method-preparing .title::after {width: 16%;}
+	.reviews .title::before, .reviews .title::after {width: 23%;}
+	.working .title::before, .working .title::after {width: 14%;}
+
+	.reviews {min-height: 780px;}
+	#slideshow {min-height: 580px;}
+	.comment {min-height: 300px;}
+	#slideshowWrapper {width: 440px;}
+
+	.method-preparing .item {padding-top: 145px;padding-left: 10px; background-position: top center;}
+	table {margin-left: 0;}	
+	.method-preparing p {padding-bottom: 25px; text-align: justify;}
+	
+}
+
+@media screen and (max-width: 479px) {
+
+	.head, .main .content, .method-preparing .content, .reviews .content {padding-top: 30px;}
+	.main {background: rgb(246, 246, 246) none repeat scroll 0% 0%;margin-top:1px;}
+	.main .content {height: auto; padding-bottom: 15px;}
+	.main .content .title span {display: block; margin: 0 auto;}
+	.main .content .graph, .method-preparing table span, .working .title::before, .working .title::after {display: none;}
+	.head .features div {margin-bottom: 40px;padding-bottom: 1px;}
+	.main .content .title {margin-bottom: 30px;}
+	.main .content .useful_properties .item {padding-top: 130px;padding-left: 0; height: auto;}
+	.main .content .title::before, .main .content .title::after {top: 45px; width: 33%;}
+	.working .title, .method-preparing .title, .reviews .title, .you-need .content .title {font-size: 26px;}
+	.form-order .title {font-size: 22px;}
+	.main .content .useful_properties .ico-1, .main .content .useful_properties .ico-2, .main .content .useful_properties .ico-3, .main .content .useful_properties .ico-4, .main .content .useful_properties .ico-5 {
+		-webkit-background-size: 120px 120px;
+		background-size: 120px 120px;
+		background-position-x: 50%;
+		margin-bottom: 30px;
+	}
+	.useful_properties {text-align: center;}
+	.you-need {height: auto;background-size: cover;}
+	.you-need .content {padding-top: 35px;padding-bottom: 15px;}
+	.you-need .content .items {margin-top: 20px;}
+	.you-need .content .items div {float: none;width: 100%;margin-bottom: 20px;}
+
+	.form-order .column-left .tov-1 {
+		width: 250px;
+		height: 320px;
+		-webkit-background-size: 100% auto;
+		background-size: 100% auto;
+	}
+	.form-order .column-left .price {
+		right: -9px;
+    	top: 26px;
+	}
+
+	.method-preparing .title::before, .method-preparing .title::after {top: 30px; width: 11%;}
+	.method-preparing p {padding-bottom: 30px;}
+	.method-preparing .item {
+		background-size: 100px 100px;
+		padding-top: 115px;
+		padding-left: 5px;
+	}
+	.working .content {padding-top: 40px;}
+	.working .items .item {width: 100%;}
+	
+
+	.reviews .title::before, .reviews .title::after {width: 20%;}
+	.reviews {min-height:890px; height: auto; background-size: cover; padding-bottom: 1px;}
+	#slideshow {
+		min-height: 750px;
+	}
+	#slideshow li {width: 275px;}
+	#slideshowWrapper {width: 300px;}
+	.comment { min-height: 474px;}
+}
