@@ -1,0 +1,26 @@
+form {
+	width: 500px;
+	margin: 100px auto;
+	padding: 0;
+}
+input {
+	width: 500px;
+	box-sizing: border-box;
+	background-color: #f1f1f1;
+	border: 1px solid #000;
+	outline: none;
+	height: 50px;
+	margin: 20px 0;
+	padding: 0 10px;
+	font-size: 20px;
+	font-family: sans-serif;
+}
+#totals {
+	border: 1px solid red;
+}
+#play {
+	border: 1px solid green;
+	width: 300px;
+	margin: 20px 100px;
+	cursor: pointer;
+}
