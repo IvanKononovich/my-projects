@@ -436,17 +436,17 @@ header {
 }
 
 .info-slogan  {
-	background: url('../images/info-slogan.png') no-repeat;
-	font-size: 26px;
-	font-weight: bold;
-	color: #FFF;
-	min-width: 400px;
-	height: 173px;
-	text-transform: uppercase;
-	position: absolute;
-	left: 0;
-	top: 57px;
-	padding: 70px 0 0 42px;
+	background: url(../images/info-slogan.png) no-repeat;
+    font-size: 26px;
+    font-weight: bold;
+    color: #FFF;
+    min-width: 400px;
+    height: 217px;
+    text-transform: uppercase;
+    position: absolute;
+    left: 0;
+    top: 57px;
+    padding: 37px 0 0 42px;
 }
 
 .info-slogan div  {
