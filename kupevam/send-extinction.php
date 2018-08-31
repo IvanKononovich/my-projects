@@ -35,7 +35,7 @@ $shkafDecor = trim($shkafDecor);
 $fio = trim($fio);
 $tel = trim($tel);
 
-if (mail("3597241@mail.ru", "Заявка с сайта", "ФИО:".$fio.". Телефон: ".$tel, "Тип шкафа: ".$shkafType. ". Ширина шкафа: ".$shkafWidth.  ". Высота шкафа: ".$shkafHeight. ". Глубина шкафа: ".$shkafDepth. ". Декорация шкафа: ".$shkafDecor ,"From: 3597241@mail.ru \r\n")) {
+if (mail("3597241@mail.ru", "Заявка с сайта kupe-vam", "ФИО:".$fio.". Телефон: ".$tel, "Тип шкафа: ".$shkafType. ". Ширина шкафа: ".$shkafWidth.  ". Высота шкафа: ".$shkafHeight. ". Глубина шкафа: ".$shkafDepth. ". Декорация шкафа: ".$shkafDecor ,"From: 3597241@mail.ru \r\n")) {
     echo "сообщение успешно отправлено"; 
 } else { 
     echo "при отправке сообщения возникли ошибки";

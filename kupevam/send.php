@@ -12,7 +12,7 @@ $fio = trim($fio);
 $tel = trim($tel);
 $mail = trim($mail);
 
-if (mail("3597241@mail.ru", "Заявка с сайта", "ФИО:".$fio.". Телефон: ".$tel. ". Mail пользователя:".$mail ,"From: 3597241@mail.ru \r\n")) {
+if (mail("3597241@mail.ru", "Заявка с сайта kupe-vam", "ФИО:".$fio.". Телефон: ".$tel. ". Mail пользователя:".$mail ,"From: 3597241@mail.ru \r\n")) {
     echo "сообщение успешно отправлено"; 
 } else { 
     echo "при отправке сообщения возникли ошибки";
