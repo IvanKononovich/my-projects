@@ -1,14 +1,18 @@
 <?php
 $fio = $_POST['fio'];
 $tel = $_POST['tel'];
+$mail = $_POST['mail'];
 $fio = htmlspecialchars($fio);
 $tel = htmlspecialchars($tel);
+$mail = htmlspecialchars($mail);
 $fio = urldecode($fio);
 $tel = urldecode($tel);
+$mail = urldecode($mail);
 $fio = trim($fio);
 $tel = trim($tel);
+$mail = trim($mail);
 
-if (mail("3597241@mail.ru", "Заявка с сайта", "ФИО:".$fio.". Телефон: ".$tel ,"From: 3597241@mail.ru \r\n")) {
+if (mail("3597241@mail.ru", "Заявка с сайта", "ФИО:".$fio.". Телефон: ".$tel. ". Mail пользователя:".$mail ,"From: 3597241@mail.ru \r\n")) {
     echo "сообщение успешно отправлено"; 
 } else { 
     echo "при отправке сообщения возникли ошибки";
@@ -33,7 +37,7 @@ if (mail("3597241@mail.ru", "Заявка с сайта", "ФИО:".$fio.". Те
 		left: 0;
 		min-width: 100vw;
 		min-height: 100vh;
-		background-color: #03496a;
+		background-color: #f8e7cd;
 	}
 	.content {
 		width: 600px;
@@ -47,15 +51,15 @@ if (mail("3597241@mail.ru", "Заявка с сайта", "ФИО:".$fio.". Те
 		font-family: Play, sans-serif;
 		font-weight: 700;
 		font-style: normal;
-		color: rgb(255, 252, 252);
+		color: #413738;
 		font-size: 33px;
 		text-align: center;
 		margin-top: 50px;
 		margin-bottom: 73px;
 	}
 	.content a {
-		background: linear-gradient(to bottom,#03A9F4 0%,#0D47A1 100%);
-	    color: #FFFFFF;
+		background-color: #fbfc00;
+	    color: #413738;
 	    transform: scale(0.97);
 	    border: none;
 	    font-family: Play, sans-serif;

@@ -1,14 +1,41 @@
 <?php
 $fio = $_POST['fio'];
 $tel = $_POST['tel'];
+$shkafType = $_POST['shkaf_type'];
+$shkafWidth = $_POST['shkaf_width'];
+$shkafHeight = $_POST['shkaf_height'];
+$shkafDepth = $_POST['shkaf_depth'];
+$shkafDecor = $_POST['shkaf_decor'];
+
+$shkafType = htmlspecialchars($shkafType);
+$shkafWidth = htmlspecialchars($shkafWidth);
+$shkafHeight = htmlspecialchars($shkafHeight);
+$shkafDepth = htmlspecialchars($shkafDepth);
+$shkafDecor = htmlspecialchars($shkafDecor);
+
 $fio = htmlspecialchars($fio);
 $tel = htmlspecialchars($tel);
+
+$shkafType = urldecode($shkafType);
+$shkafWidth = urldecode($shkafWidth);
+$shkafHeight = urldecode($shkafHeight);
+$shkafDepth = urldecode($shkafDepth);
+$shkafDecor = urldecode($shkafDecor);
+
 $fio = urldecode($fio);
 $tel = urldecode($tel);
+
+
+$shkafType = trim($shkafType);
+$shkafWidth = trim($shkafWidth);
+$shkafHeight = trim($shkafHeight);
+$shkafDepth = trim($shkafDepth);
+$shkafDecor = trim($shkafDecor);
+
 $fio = trim($fio);
 $tel = trim($tel);
 
-if (mail("3597241@mail.ru", "Заявка с сайта", "ФИО:".$fio.". Телефон: ".$tel ,"From: 3597241@mail.ru \r\n")) {
+if (mail("3597241@mail.ru", "Заявка с сайта", "ФИО:".$fio.". Телефон: ".$tel, "Тип шкафа: ".$shkafType. ". Ширина шкафа: ".$shkafWidth.  ". Высота шкафа: ".$shkafHeight. ". Глубина шкафа: ".$shkafDepth. ". Декорация шкафа: ".$shkafDecor ,"From: 3597241@mail.ru \r\n")) {
     echo "сообщение успешно отправлено"; 
 } else { 
     echo "при отправке сообщения возникли ошибки";
@@ -33,7 +60,7 @@ if (mail("3597241@mail.ru", "Заявка с сайта", "ФИО:".$fio.". Те
 		left: 0;
 		min-width: 100vw;
 		min-height: 100vh;
-		background-color: #03496a;
+		background-color: #f8e7cd;
 	}
 	.content {
 		width: 600px;
@@ -47,15 +74,15 @@ if (mail("3597241@mail.ru", "Заявка с сайта", "ФИО:".$fio.". Те
 		font-family: Play, sans-serif;
 		font-weight: 700;
 		font-style: normal;
-		color: rgb(255, 252, 252);
+		color: #413738;
 		font-size: 33px;
 		text-align: center;
 		margin-top: 50px;
 		margin-bottom: 73px;
 	}
 	.content a {
-		background: linear-gradient(to bottom,#03A9F4 0%,#0D47A1 100%);
-	    color: #FFFFFF;
+		background-color: #fbfc00;
+	    color: #413738;
 	    transform: scale(0.97);
 	    border: none;
 	    font-family: Play, sans-serif;
