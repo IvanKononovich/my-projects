@@ -58,4 +58,11 @@ function hidden(){
 			}	
 		}	
 	}	
-}	
+}
+
+//	hide menu items -----------------------------------------------------------------
+
+let showEllMenu = document.querySelectorAll('#navbarSupportedContent .navbar-nav>li');
+for(let j = 0; j < showEllMenu.length; j++){
+	showEllMenu[j].classList.remove('hide-menu-items');
+}
