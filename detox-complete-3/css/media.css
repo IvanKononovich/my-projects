@@ -1,0 +1,889 @@
+@media (max-width: 1230px) {
+    .container {
+        max-width: 760px;
+    }
+    header {
+        padding-top: 20px;
+    }
+    header .title {
+        font-size: 30px;
+        line-height: 1.33;
+        text-align: right;
+        color: #000000;
+        max-width: 570px;
+    }
+    header .virtues-list li {
+        font-size: 15px;
+        line-height: 1.33;
+        color: #000000;
+        background-size: contain;
+        padding-left: 40px;
+    }
+    header .virtues-list li:after {
+        width: 30px;
+        height: 30px;
+    }
+    header .row:last-of-type {
+        flex-direction: column;
+        padding-bottom: 40px;
+    }
+    header .column {
+        width: 100%;
+    }
+    header .column:first-of-type {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        margin-bottom: 50px;
+    }
+    header .product-container {
+        width: 50%;
+        height: 215px;
+        margin-top: 0;
+        order: 2;
+    }
+    header .product-container img {
+        height: 100%;
+        object-fit: contain;
+    }
+    header h2 {
+        width: 50%;
+        order: 1;
+        font-size: 20px;
+        line-height: 1.5;
+        padding: 0 20px 0 0;
+        margin: 0;
+    }
+    .order-form h2 {
+        text-align: center;
+        width: 100%;
+        max-width: 100%;
+        margin: 0 0 10px;
+        padding: 0;
+    }
+    header .guarantees-list {
+        display: none;
+    }
+    .order-form {
+        margin: 0 auto;
+    }
+    .order-form input {
+        width: 48%;
+    }
+    .order-form .row:last-of-type {
+        flex-direction: row;
+    }
+    .order-form input,
+    .order-form select,
+    .order-form .button {
+        height: 50px;
+        line-height: 50px;
+    }
+    .order-form .button {
+        max-width: 250px;
+    }
+    header .bg {
+        background: url('../img/bg-3.jpg') 50% 50% no-repeat;
+        background-size: cover;
+        height: 100%;
+    }
+    .signs-infection {
+        background: #ffffff;
+    }
+    .sign-infection picture {
+        max-width: 155px;
+        height: 155px;
+    }
+    .sign-infection p {
+        margin-top: 10px;
+        font-size: 15px;
+        text-align: center;
+        max-width: 155px;
+    }
+    .signs-infection .slider {
+        display: block;
+        width: 100%;
+    }
+    .sign-infection {
+        margin: 0;
+        padding: 0 10px;
+    }
+    .sign-infection p,
+    .sign-infection picture {
+        margin: 0 auto;
+    }
+    .sign-infection p {
+        margin-top: 20px;
+    }
+    .signs-infection h2 {
+        max-width: 430px;
+        margin: 20px auto;
+    }
+    .signs-infection .main-column>p {
+        line-height: 1.5;
+        color: #ffffff;
+        background-color: #524296;
+        max-width: 100%;
+        padding: 20px 60px;
+    }
+    .causes-infection h2 {
+        display: none;
+    }
+    .causes-infection {
+        padding-top: 20px;
+    }
+    .causes-infection .mobile-title {
+        display: block;
+        width: 100%;
+        max-width: 395px;
+        margin: 0 auto 40px;
+        padding: 0;
+        background-color: #ffffff;
+        color: #17416B;
+        font-size: 30px;
+        line-height: 1;
+    }
+    .cause-infection picture {
+        max-width: 175px;
+        width: 100%;
+        height: 175px;
+    }
+    .cause-infection p {
+        font-size: 12px;
+        line-height: 1.67;
+    }
+    .cause-infection {
+        margin-bottom: 20px;
+        max-width: 175px;
+    }
+    .causes-infection .column {
+        width: 270px;
+    }
+    .causes-infection .slide picture {
+        width: 270px;
+        height: 270px;
+    }
+    .causes-infection li {
+        font-size: 15px;
+        padding-left: 30px;
+        margin-bottom: 25px;
+    }
+    .causes-infection li:after {
+        width: 20px;
+        height: 70px;
+    }
+    .efficiency h3,
+    .efficiency h2 {
+        display: none;
+    }
+    .efficiency .mobile-title {
+        display: block;
+        padding: 0;
+        background-color: transparent;
+        box-shadow: none;
+        color: #FFFFFF;
+        line-height: 1;
+        margin: 20px 0 130px;
+    }
+    .efficiency .wrapper {
+        flex-wrap: wrap;
+    }
+    .efficiency .column {
+        max-width: 320px;
+    }
+    .efficiency picture img {
+        height: 100%;
+    }
+    .efficiency li {
+        font-size: 12px;
+        line-height: 1.67;
+    }
+    .efficiency li:after {
+        width: 20px;
+        height: 20px;
+        top: -3px;
+    }
+    .efficiency .content-container {
+        padding: 0 50px 10px;
+    }
+    .efficiency picture {
+        height: 165px;
+        margin: -80px auto 30px;
+    }
+    .efficiency .wrapper {
+        padding: 50px 0 90px;
+    }
+    .composition-product h2 {
+        font-size: 30px;
+        line-height: 1;
+        max-width: 680px;
+    }
+    .composition-part p {
+        font-size: 12px;
+    }
+    .composition-part picture {
+        max-width: 265px;
+        height: 145px;
+    }
+    .composition-part picture img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+    .composition-part {
+        margin-top: 30px;
+    }
+    .composition-part:first-of-type img {
+        max-width: 220px;
+    }
+    .composition-product .total {
+        max-width: 565px;
+    }
+    .composition-product .total p {
+        font-size: 12px;
+        line-height: 1.67;
+        margin: 0 0 100px;
+    }
+    .composition-product .total img {
+        width: 100%;
+    }
+    .composition-product .total picture {
+        max-width: 180px;
+    }
+    .composition-product .total a {
+        font-size: 15px;
+        min-width: 250px;
+    }
+    .composition-product {
+        padding: 50px 0 80px;
+    }
+    .doctors-recommendation h2 {
+        font-size: 20px;
+        line-height: 1.5;
+        text-align: left;
+        max-width: 240px;
+        margin: 0 0 15px;
+    }
+    .doctors-recommendation blockquote {
+        font-size: 12px;
+        line-height: 1.67;
+        font-weight: 500;
+        margin-bottom: 10px;
+    }
+    .doctors-recommendation {
+        background-color: #f0fbff;
+    }
+    .doctors-recommendation .container:first-of-type {
+        background: #f0fbff url('../img/doctor-2.png') 0 100% no-repeat;
+    }
+    .doctors-recommendation .certificates {
+        justify-content: center;
+    }
+    .doctors-recommendation .certificates picture {
+        width: 125px;
+        height: 180px;
+        margin: 0 25px;
+    }
+    .doctors-recommendation .container:last-of-type {
+        max-width: 100%;
+        background-color: #ffffff;
+        border: 1px solid transparent;
+    }
+    .doctors-recommendation .certificates {
+        margin-top: 40px;
+    }
+    .doctors-recommendation .container:first-of-type {
+        min-height: 400px;
+    }
+    .doctors-recommendation .column picture {
+        width: 150px;
+    }
+    .doctors-recommendation .column img {
+        width: 100%;
+    }
+    .doctors-recommendation cite {
+        font-size: 10px;
+        line-height: 2;
+        width: 160px;
+    }
+    .doctors-recommendation .main-column {
+        padding-bottom: 25px;
+        width: 60%;
+    }
+    .reviews .slide picture {
+        width: 270px;
+        height: 290px;
+    }
+    .reviews h3 {
+        font-size: 20px;
+    }
+    .reviews .slide h3 {
+        border-bottom: none;
+        max-width: 268px;
+    }
+    .reviews .slide blockquote {
+        font-size: 12px;
+    }
+    .reviews .slide .text-container {
+        padding-left: 20px;
+    }
+    .reviews .slide cite {
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 1.33;
+    }
+    .reviews .slide {
+        margin-top: 20px;
+    }
+    .reviews .slide:nth-child(even) .text-container {
+        padding-right: 20px;
+    }
+    .treatment .column {
+        position: relative;
+        z-index: 10;
+        width: 100%;
+        max-width: 410px;
+    }
+    .treatment h2 {
+        font-size: 20px;
+        max-width: 325px;
+    }
+    .treatment li {
+        font-weight: 500;
+        font-size: 15px;
+        padding-left: 60px;
+    }
+    .treatment li:after {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: #ffffff;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+        background-size: contain;
+    }
+    .treatment .container {
+        position: relative;
+    }
+    .treatment .column:last-of-type {
+        position: absolute;
+        z-index: 0;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        height: 100%;
+        width: 75%;
+        right: -130px;
+        bottom: 0;
+        top: unset;
+        left: unset;
+        max-width: 100%;
+    }
+    .area-​​infection {
+        padding: 0;
+    }
+    .area-​​infection h2 {
+        margin: 40px 0 20px;
+        font-size: 20px;
+    }
+    .area-​​infection p {
+        font-size: 12px;
+        line-height: 2;
+    }
+    .area-​​infection .column {
+        max-width: 300px;
+        margin-right: -20px;
+        min-height: 410px;
+        background: url('../img/bg-14.jpg') 50% 50% no-repeat;
+        background-size: cover;
+    }
+    .area-​​infection .main-column {
+        padding-right: 20px;
+    }
+    .area-​​infection p:last-of-type {
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 1.5;
+        color: #9A3C3C;
+    }
+    footer .row:first-of-type h2 {
+        font-size: 20px;
+        line-height: 1.5;
+        max-width: 430px;
+        margin-bottom: 15px;
+    }
+    footer h3 {
+        display: none;
+    }
+    footer .container>.row:nth-child(2) {
+        max-width: 330px;
+    }
+    footer .virtues-list li {
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 1.33;
+        padding-left: 45px;
+    }
+    footer .virtues-list li:after {
+        width: 30px;
+        height: 30px;
+    }
+    footer .column:first-of-type {
+        width: 380px;
+    }
+    footer .order-form .timer-num {
+        font-size: 40px;
+        width: 70px;
+        height: 70px;
+        line-height: 70px;
+    }
+    footer .order-form .timer-box {
+        width: 250px;
+    }
+}
+
+@media (max-width: 700px) {
+    header .title {
+        font-size: 20px;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+    header .row {
+        justify-content: center;
+    }
+    header .virtues-list {
+        width: 100%;
+        max-width: 450px;
+        padding-top: 250px;
+        margin-bottom: 20px;
+        position: relative;
+    }
+    header .virtues-list:after {
+        content: '';
+        display: block;
+        width: 100%;
+        height: 230px;
+        background: url('../img/product.png') 50% 50% no-repeat;
+        background-size: contain;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    header .bg {
+        background: url('../img/bg-4.jpg') 50% 0 no-repeat;
+        background-size: cover;
+    }
+    header .column:first-of-type {
+        display: none;
+    }
+    .timer-box {
+        max-width: 320px;
+    }
+    .timer-num {
+        width: 90px;
+        height: 90px;
+        line-height: 90px;
+        font-size: 50px;
+    }
+    .timer-txt {
+        font-size: 15px;
+    }
+    .order-form {
+        margin: 0 -20px;
+        width: unset;
+        max-width: unset;
+    }
+    .order-form select {
+        margin-bottom: 10px;
+    }
+    .order-form input {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 10px;
+    }
+    .sign-infection {
+        padding: 0 10px;
+        max-width: unset;
+    }
+    .sign-infection p,
+    .sign-infection picture {
+        margin: 0 auto;
+    }
+    .sign-infection picture {
+        min-width: 200px;
+        height: 200px;
+    }
+    .sign-infection p {
+        font-size: 16px;
+        margin-top: 20px;
+    }
+    .signs-infection .slider {
+        margin: 0 -20px;
+        position: relative;
+        overflow: hidden;
+        width: auto;
+    }
+    .signs-infection .slider .slick-list {
+        z-index: 0;
+    }
+    .signs-infection .slider:before,
+    .signs-infection .slider:after {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0;
+        left: -1px;
+        width: 1px;
+        height: 100%;
+        box-shadow: 0 0 35px 25px #ffffff;
+        z-index: 10;
+    }
+    .signs-infection .slider:before {
+        left: unset;
+        right: -1px;
+    }
+    header .row:last-of-type {
+        padding-bottom: 0;
+    }
+    .signs-infection h2 {
+        font-size: 20px;
+        max-width: 300px;
+    }
+    .signs-infection .main-column>p {
+        margin: 20px -20px 0;
+        width: auto;
+        text-transform: uppercase;
+        font-size: 10px;
+        line-height: 2;
+    }
+    .causes-infection .mobile-title {
+        font-size: 20px;
+        max-width: 275px;
+        margin-bottom: 20px;
+    }
+    .causes-infection .container {
+        flex-wrap: wrap;
+    }
+    .causes-infection .column {
+        order: 1;
+        width: 100%;
+    }
+    .causes-infection .main-column {
+        order: 2;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    .causes-infection .slide picture {
+        width: 300px;
+        height: 300px;
+    }
+    .causes-infection .slider {
+        width: 300px;
+        margin: 0 auto;
+    }
+    .cause-infection {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 335px;
+    }
+    .cause-infection picture {
+        max-width: 90px;
+        width: 100%;
+        height: 90px;
+        margin: 0;
+    }
+    .cause-infection p {
+        font-size: 16px;
+        text-align: left;
+        margin-left: 20px;
+    }
+    .causes-infection li {
+        font-size: 16px;
+        margin: 0 auto 15px;
+    }
+    .causes-infection li:after {
+        width: 15px;
+        height: 50px;
+    }
+    .efficiency .mobile-title {
+        font-size: 20px;
+        max-width: 340px;
+        margin: 0 auto 120px;
+    }
+    .efficiency .wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+    .efficiency .column {
+        max-width: 100%;
+    }
+    .efficiency .column:first-of-type .content-container {
+        margin-bottom: 140px;
+    }
+    .efficiency ul {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+    .efficiency .content-container {
+        padding: 10px 0 ;
+    }
+    .efficiency picture {
+        margin: -110px auto 30px;
+    }
+    .composition-product h2 {
+        font-size: 22px;
+        line-height: 1.5;
+        max-width: 455px;
+    }
+    .composition-product {
+        padding: 10px 0 40px;
+    }
+    .composition-part {
+        flex-direction: column;
+    }
+    .composition-part h3 {
+        font-size: 18px;
+        line-height: 1.25;
+    }
+    .composition-part p {
+        font-size: 14px;
+    }
+    .composition-part picture {
+        margin-bottom: 10px;
+    }
+    .composition-product .total {
+     border: 4px solid #007D49;   
+    }
+    .composition-product .total picture {
+        max-width: 100%;
+    }
+    .composition-product .total a {
+        min-width: 150px;
+        max-width: 270px;
+        width: 100%;
+        font-size: 12px;
+        line-height: 40px;
+        height: 40px;
+    }
+    .composition-product .total p {
+        margin: 0 0 50px;
+    }
+    .composition-product .total .column {
+        position: static;
+        width: 100%;
+        transform: none;
+        margin-top: 30px;
+    }
+    .doctors-recommendation {
+        position: relative;
+        padding-top: 240px;
+    }
+    .doctors-recommendation:after {
+        content: '';
+        width: 100%;
+        height: 240px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: #fff url('../img/doctor-3.jpg') 50% 100% no-repeat;
+    }
+    .doctors-recommendation .container:first-of-type {
+        background: #f0fbff;
+        padding-top: 25px;
+    }
+    .doctors-recommendation .main-column {
+        width: 100%;
+        padding-bottom: 10px;
+    }
+    .doctors-recommendation h2 {
+        font-size: 15px;
+        line-height: 1.33;
+    }
+    .doctors-recommendation cite {
+        font-size: 12px;
+        line-height: 1.5;
+        width: 200px;
+    }
+    .doctors-recommendation .container:first-of-type {
+        min-height: unset;
+    }
+    .doctors-recommendation .certificates {
+        margin-top: 20px;
+    }
+    .doctors-recommendation .certificates picture {
+        height: 100px;
+        width: 70px;
+        margin: 0 10px;
+    }
+    .reviews h2 {
+        margin-top: 30px;
+        font-size: 20px;
+        max-width: 310px;
+    }
+    .reviews h3 {
+        margin-top: 10px;
+        font-size: 15px;
+    }
+    .reviews .slide,
+    .reviews .slide:nth-child(even) {
+        flex-direction: column;
+        outline: none;
+    }
+    .reviews .slide h3,
+    .reviews .slide blockquote,
+    .reviews .slide:nth-child(even) h3,
+    .reviews .slide:nth-child(even) blockquote {
+        text-align: center;
+        max-width: 100%;
+        width: 100%;
+    }
+    .reviews .slide blockquote {
+        line-height: 2;
+        height: 150px;
+        overflow: hidden;
+        position: relative;
+    }
+    .reviews .slide .read-more {
+        height: unset;
+        overflow: visible;
+    }
+    .reviews .slide blockquote:after {
+        content: '';
+        position: absolute;
+        display: block;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 30px;
+        background-image: linear-gradient(to top , #ffffff, #ffffff00);
+    }
+    .reviews .slide .read-more:after {
+        content: none;
+    }
+    .reviews .slide .read-more-btn {
+        display: block;
+        font-size: 15px;
+        text-align: left;
+        background-color: transparent;
+        border: none;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .reviews .slide .text-container,
+    .reviews .slide:nth-child(even) .text-container {
+        padding: 0;
+    }
+    .reviews .slide .photo-container {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+    }
+    .reviews .slide picture {
+        width: 180px;
+        height: 180px;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+    .reviews .slide cite {
+        font-size: 12px;
+        margin-top: 15px;
+        text-align: center;
+    }
+    .reviews .arrow {
+        display: block;
+        top: 110px;
+    }
+    .treatment .column:last-of-type {
+        display: none;
+    }
+    .treatment .column {
+        max-width: 100%;
+    }
+    .treatment h2 {
+        text-align: center;
+        margin: 35px auto 20px;
+    }
+    .treatment ol {
+        max-width: 440px;
+        margin: 0 auto;
+    }
+    .treatment li {
+        margin-bottom: 30px;
+    }
+    .area-​​infection .container {
+        flex-direction: column-reverse;
+    }
+    .area-​​infection .column {
+        width: auto;
+        max-width: unset;
+        margin: 0 -20px;
+        background-size: unset;
+        min-height: 220px;
+        background-color: #943837;
+    }
+    .area-​​infection h2 {
+        font-size: 15px;
+        line-height: 2;
+        margin: 20px auto 10px;
+    }
+    .area-​​infection p:last-of-type {
+        font-size: 15px;
+        font-weight: 500;
+        margin: 15px 0  35px;
+    }
+    .area-​​infection .main-column {
+        padding: 0;
+        margin: 0 auto;
+        max-width: 400px;
+    }
+    footer .column:first-of-type {
+        width: 100%;
+        justify-content: center;
+    }
+    footer .column:last-of-type {
+        display: none;
+    }
+    footer {
+        background: #fff url('../img/bg-4.jpg') 50% 50% no-repeat;
+        background-size: cover;
+    }
+    footer .container>.row:nth-child(2) {
+        max-width: 100%;
+    }
+    footer .virtues-list {
+        max-width: 500px;
+        margin: 0 auto;
+        padding-top: 220px;
+        position: relative;
+    }
+    footer .virtues-list::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 205px;
+        top: 0;
+        left: 0;
+        background: url('../img/product.png') 50% 0 no-repeat;
+        background-size: contain;
+    }
+    footer .row:first-of-type h2 {
+        width: 100%;
+        max-width: 500px;
+        margin: 10px auto 30px;
+    }
+    footer .container>.row:last-of-type {
+        padding-bottom: 0;
+    }
+    footer .order-form .timer-num {
+        width: 90px;
+        height: 90px;
+        line-height: 90px;
+        font-size: 50px;
+    }
+    footer .order-form .timer-box {
+        max-width: 320px;
+        width: 100%;
+    }
+}

@@ -31,6 +31,12 @@ body {
 		background-image: none;
 	}
 }
+a {
+	transition: 0.3s;
+}
+a:hover {
+	color: #5f5e5e !important;
+}
 .wrapper {
 	background-image: linear-gradient(to top, rgba(216, 216, 216, 0.1) , black 170px);			
 	z-index: 5;
