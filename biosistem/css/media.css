@@ -1,0 +1,909 @@
+@media (max-width: 1200px) {
+    .container {
+        max-width: 810px;
+    }
+    header ul {
+        padding: 20px 0;
+    }
+    header li {
+        display: block;
+        min-width: 0;
+        max-width: 180px;
+        text-align: left;
+        font-size: 18px;
+    }
+    header li:nth-child(2) {
+        max-width: 130px;
+    }
+    header li:nth-child(3) {
+        max-width: 180px;
+    }
+    header li:nth-child(4) {
+        max-width: 110px;
+    }
+    header li:first-child {
+        margin: 0;
+    }
+    header li:last-child {
+        margin-right: 0;
+    }
+    header .logo {
+        font-size: 18px;
+    }
+    .operating-principle__row {
+        position: relative;
+    }
+    .operating-principle__column {
+        width: 100%;
+    }
+    .operating-principle__column:last-child {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .operating-principle__row picture {
+        max-width: 420px;
+        margin: 0;
+    }
+    .operating-principle__row picture img {
+        width: 100%;
+    }
+    .order-form {
+        max-width: 295px;
+        position: absolute;
+        bottom: -195px;
+        right: 0;
+    }
+    .order-form h2 {
+        font-size: 16px;
+    }
+    .timer-box {
+        max-width: 235px;
+    }
+    .timer-num {
+        width: 65px;
+        line-height: 65px;
+    }
+    .timer-txt {
+        font-size: 10px;
+    }
+    .order-form .header {
+        padding-bottom: 5px;
+    }
+    .order-form .row {
+        padding: 20px 30px 30px;
+    }
+    .order-form input, 
+    .order-form select {
+        font-size: 16px;
+        max-width: 230px;
+        height: 40px;
+        line-height: 40px;
+        margin-bottom: 10px;
+    }
+    .order-form .button {
+        font-size: 14px;
+        line-height: 50px;
+        max-width: 230px;
+    }
+    .operating-principle:before {
+        content: none;
+    }
+    .operating-principle h2 {
+        max-width: 620px;
+    }
+    .operating-principle h3 {
+        margin-top: 20px;
+    }
+    .operating-principle {
+        padding-top: 35px;
+    }
+    .operating-principle ol {
+        max-width: 420px;
+    }
+    .operating-principle ol .number {
+        margin-right: 15px;
+    }
+    .operating-principle ol p {
+        font-size: 18px;
+    }
+    .product-secret h2 {
+        text-align: left;
+        font-size: 34px;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    .product-secret p {
+        max-width: 100%;
+        font-size: 20px;
+        color: #333333;
+        margin-bottom: 20px;
+    }
+    .product-secret p:first-of-type, 
+    .product-secret p:last-of-type {
+        font-size: 20px;
+    }
+    .product-secret .product-secret-wrapper .container {
+        padding: 40px 20px 50px;
+    }
+    .product-secret {
+        margin-top: 50px;
+        padding-top: 25px;
+        position: relative;
+    }
+    .product-secret-wrapper {
+        position: static;
+    }
+    .guarantees h2 {
+        margin-top: 0;
+        margin-bottom: 25px;
+        text-align: left;
+        font-size: 44px;
+        max-width: 480px;
+    }
+    .guarantees li {
+        font-size: 18px;
+    }
+    .guarantees__row {
+        align-items: flex-start;
+    }
+    .guarantees__bg {
+        width: 325px;
+        height: 285px;
+        position: absolute;
+        top: -100px;
+        left: 35px;
+    }
+    .guarantees__row h2 {
+        margin: 20px auto;
+        text-align: center;
+    }
+    .guarantees__row h3 {
+        font-size: 30px;
+        max-width: 720px;
+    }
+    .guarantees__link {
+        margin: 30px auto;
+        font-size: 14px;
+        padding: 15px 30px;
+    }
+    .composition__row_description {
+        margin: 55px 0 0;
+    }
+    .composition__row_description p {
+        font-size: 18px;
+    }
+    .composition__impact {
+        position: static;
+        max-width: 290px;
+    }
+    .composition__row_imact .composition__column:first-child {
+        min-width: unset;
+    }
+    .composition__impact picture {
+        width: 145px;
+        height: 145px;
+    }
+    .composition__impact.-pos-2 {
+        transform: unset;
+    }
+    .composition__row:nth-of-type(2) .composition__row {
+        height: unset;
+    }
+    .composition__impact picture:after {
+        width: 170px;
+        height: 170px;
+    }
+    .composition__row .composition__impact p {
+        font-size: 18px;
+        margin-top: 25px;
+        margin-bottom: 45px;
+    }
+    .composition__impact.-pos-1:after {
+        width: 150.25px;
+        height: 170px;
+        right: -10px;
+        top: -50px;
+        transform: rotate(18deg);
+        background-size: contain;
+    }
+    .composition__impact.-pos-3:after {
+        width: 180px;
+        height: 220px;
+        background-size: contain;
+        right: -10px;
+        top: -50px;
+    
+    }
+    .composition__row_description .composition__column {
+        width: 45%;
+    }
+    .composition__row_description .composition__column:first-of-type {
+        width: 55%;
+    }
+    .composition__row_imact .composition__column:last-child {
+        width: 45%;
+    }
+    .composition__bg {
+        height: 730px;
+    }
+    .composition__column.-container-bg {
+        justify-content: flex-start
+    }
+    .composition__column.-container-bg span {
+        margin-top: 35px;
+    }
+    .composition__row_slider h2 {
+        margin: 0 0 45px;
+        font-size: 50px;
+        font-weight: 800;
+    }
+    .composition__row_slider .slider {
+        flex-wrap: wrap;
+    }
+    .composition__row_slider picture {
+        width: 170px;
+        height: 170px;
+    }
+    .composition__row_slider h3 {
+        font-size: 18px;
+        margin: 10px 0 5px;
+    }
+    .composition__row_slider p {
+        font-size: 18px;
+        max-width: 300px;
+    }
+    .composition__row_slider .slide {
+        margin-bottom: 45px;
+    }
+    .doctors-comments .column_middle-img {
+        height: 230px;
+    }
+    .doctors-comments .image-wrapper_number-1 {
+        width: 45px;
+        height: 45px;
+    }
+    .doctors-comments .image-wrapper_number-2 {
+        top: 15px;
+        left: 50%;
+        transform: translatex(-50%);
+        width: 60px;
+        height: 60px;
+    }
+    .doctors-comments .image-wrapper_number-3 {
+        bottom: 30px;
+        right: 0;
+        width: 40px;
+        height: 40px;
+    }
+    .doctors-comments .image-wrapper_number-4 {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 230px;
+        height: 230px;
+    }
+    .doctors-comments .image-wrapper_number-5 {
+        bottom: 20px;
+        left: 0;
+        width: 50px;
+        height: 50px;
+    }
+    .doctors-comments .image-wrapper_number-6 {
+        top: 15px;
+        left: 50%;
+        transform: translatex(-50%);
+        width: 40px;
+        height: 40px;
+    }
+    .doctors-comments .image-wrapper_number-7 {
+        top: 50%;
+        right: 0;
+        transform: translatey(-50%);
+        width: 30px;
+        height: 30px;
+    }
+    .doctors-comments .images-container {
+        max-width: 730px;
+    }
+    .doctors-comments .column_middle-img svg {
+        width: 45px;
+        height: 40px;
+    }
+    .doctors-comments blockquote {
+        font-weight: 400;
+        font-size: 18px;
+        max-width: 605px
+    }
+    .doctors-comments blockquote:first-of-type {
+        margin-top: 40px;
+    }
+    .clinical-trials h2 {
+        font-size: 50px;
+        text-align: left;
+        margin-bottom: 25px;
+    }
+    .clinical-trials {
+        padding-top: 0;
+        background: none;
+        margin-top: 40px;
+    }
+    .clinical-trials .container:first-of-type p {
+        font-size: 18px;
+    }
+    .clinical-trials h3 {
+        font-size: 30px;
+        margin: 55px 25px;
+    }
+    .clinical-trials__column {
+        width: 100%;
+    }
+    .clinical-trials .container:nth-child(2) {
+        flex-wrap: wrap;
+    }
+    .clinical-trials .slider .percent {
+        font-size: 40px;
+    }
+    .clinical-trials .slider .description {
+        font-size: 18px;
+        font-weight: 400;
+        max-width: 350px;
+    }
+    .clinical-trials .slide {
+        max-width: 250px;
+        margin-bottom: 45px;
+    }
+    .clinical-trials .slider {
+        max-width: 510px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .clinical-trials .circle-chart {
+        width: 200px;
+        height: 200px;
+    }
+    .clinical-trials .circle-chart__circle {
+       transform: rotate(-90deg) scale(1, -1) scale(0.76);
+       transform-origin: center;
+    }
+    .clinical-trials .circle-chart__background {
+        transform: scale(0.76);
+        transform-origin: center;
+    }
+    .clinical-trials .circle-chart__circle ,
+    .clinical-trials .circle-chart__background {
+        stroke-width: 25px;
+    }
+    .clinical-trials__bg {
+        order: 2;
+        width: 230px;
+        height: 160px;
+        align-self: center;
+    }
+    .statistics-container {
+        order: 1;
+        width: 50%;
+    }
+    .clinical-trials__column:not(.slider) {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-top: 50px;
+    }
+    .statistics:first-of-type p {
+        margin-top: 0;
+    }
+    .statistics p {
+        font-size: 18px;
+        margin: 40px 0 0;
+    }
+    .mode-application h2 {
+        font-size: 50px;
+        line-height: 1;
+        margin: 50px 0 30px;
+    }
+    .mode-application {
+        padding: 0;
+        background: 
+        linear-gradient(180deg, #ffffff 0%, rgba(255, 255, 255, 0) 19.79%), 
+        linear-gradient(180deg, rgba(255, 255, 255, 0) 96.88%, rgba(255, 255, 255, 0.66) 100%), 
+        url('../img/bg-11.jpg') 50% 50% no-repeat;
+        background-size: 100%, 100%, cover;
+    }
+    .mode-application li {
+        padding-left: 25px;
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 15px;
+    }
+    .mode-application li:after {
+        left: 10px;
+        top: 7px;
+    }
+    .mode-application li:last-of-type {
+        margin-bottom: 25px;
+    }
+    .mode-application p {
+        font-size: 20px;
+    }
+    .mode-application p:first-of-type {
+        font-size: 30px;
+    }
+    .reviews {
+        padding: 50px 0;
+    }
+    .reviews h2 {
+        font-size: 30px;
+    }
+    .reviews h2:last-of-type {
+        margin-bottom: 20px;
+    }
+    .reviews .slide__column {
+        max-width: 50%;
+    }
+    .reviews .slide__column:last-of-type {
+        max-width: 50%;
+    }
+    .reviews h3 {
+        font-size: 18px;
+        margin: 15px 0;
+    }
+    .reviews blockquote {
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+    .reviews cite {
+        font-size: 18px;
+    }
+    .effect-after-application p {
+        font-size: 20px;
+        padding-left: 20px;
+    }
+    .effect-after-application .stage {
+        max-width: 445px;
+    }
+    .effect-after-application .stage__number {
+        width: 105px;
+        height: 105px;
+        font-size: 100px;
+        line-height: 105px;
+    }
+    .effect-after-application .stage__day {
+        font-size: 30px;
+    }
+    .effect-after-application__row {
+        flex-wrap: wrap;
+        margin-bottom: 45px;
+    }
+    .effect-after-application__column {
+        width: 100%;
+    }
+    .effect-after-application .arrow {
+        width: 80px;
+        height: 80px;
+        background-size: contain;
+    }
+    .effect-after-application .arrow_pos-1 {
+        bottom: 90px;
+        right: 180px;
+        transform: translateY(100%) rotate(75deg) scale(1, -1);
+    }
+    .effect-after-application .arrow_pos-2 {
+        bottom: 10px;
+        right: 210px;
+        transform: translateY(100%) rotate(116deg);
+    }
+    .effect-after-application .arrow_pos-3 {
+        bottom: 40px;
+        right: 540px;
+        transform: translateY(100%) rotate(105deg);
+    }
+    .effect-after-application .arrow_pos-4 {
+        bottom: 50px;
+        right: 180px;
+    }
+    .effect-after-application .stage_pos-1 ,
+    .effect-after-application .stage_pos-2 ,
+    .effect-after-application .stage_pos-3 {
+        margin: 0 0 0 250px;
+    }
+    .effect-after-application picture {
+        max-width: 230px;
+        margin-top: -80px;
+    }
+    .effect-after-application__row:nth-of-type(2) .effect-after-application__column:nth-of-type(2) {
+        margin-top: -30px;
+    }
+    .operating-principle_footer .container > h2 {
+        font-size: 30px;
+        text-align: left;
+        margin-bottom: 25px;
+    }
+    .operating-principle_footer .order-form {
+        bottom: -176px;
+    }
+    .operating-principle_footer {
+        padding-top: 85px;
+    }
+}
+
+@media (max-width: 760px) {
+    .container {
+        max-width: 560px;
+    }
+    header {
+        display: none;
+    }
+    .operating-principle h2 {
+        font-size: 28px;
+        max-width: 400px;
+    }
+    .operating-principle .subtitle {
+        font-weight: 500;
+        max-width: 320px;    
+        display: block;
+    }
+    .operating-principle h3 {
+        font-size: 18px;
+        font-weight: 800;
+        max-width: 350px;
+    }
+    .operating-principle__column:last-child {
+        position: static;
+    }
+    .order-form {
+        position: static;
+        max-width: calc(100% + 40px);
+        width: calc(100% + 40px);
+        margin: 0 -20px;
+    }
+    .operating-principle__row {
+        flex-direction: column;
+    }
+    .operating-principle__row:last-of-type {
+        position: relative;
+    }
+    .operating-principle__column {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .operating-principle ol p {
+        font-size: 14px;
+    }
+    .operating-principle ol .number {
+        line-height: 0;
+    }
+    .operating-principle__row picture {
+        max-width: 410px;
+        width: 100%;
+        height: 230px;
+        position: absolute;
+        top: -835px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .operating-principle__column:last-child {
+        margin-top: 180px;
+    }
+    .order-form .button,
+    .order-form input,
+    .order-form select {
+        max-width: 100%
+    }
+    .order-form .header {
+        padding: 0 20px 5px;
+    }
+    .product-secret {
+        margin: 0;
+        padding-top: 15px;
+    }
+    .product-secret h2 {
+        margin-top: 0;
+        font-size: 28px;
+    }
+    .product-secret .product-secret-wrapper .container {
+        padding: 10px 20px 25px;
+    }
+    .product-secret p:first-of-type, 
+    .product-secret p:last-of-type,
+    .product-secret p {
+        margin-bottom: 10px;
+        font-size: 14px
+    }
+    .guarantees__column {
+        width: 100%;
+        order: 2;
+    }
+    .guarantees__column:last-of-type {
+        order: 1;
+    }
+    .guarantees__row:last-of-type {
+        background: none;
+    }
+    .guarantees h2 {
+        margin: 20px 0 10px;
+        font-size: 28px;
+        max-width: unset
+    }
+    .guarantees__bg {
+        position: static;
+        margin: 0 auto;
+        max-width: 350px;
+        width: 100%;
+    }
+    .guarantees li {
+        font-size: 14px;
+    }
+    .guarantees__row h3 {
+        font-size: 14px;
+    }
+    .composition__impact.-pos-1:after {
+        content: none;
+    }
+    .composition__impact.-pos-3:after {
+        content: none;
+    }
+    .composition__row_imact .composition__column:last-child {
+        display: none;
+    }
+    .composition__row_imact .composition__column:first-child {
+        width: 100%;
+    }
+    .composition__row_description {
+        flex-wrap: wrap;
+    }
+    .composition__row_description .composition__column {
+        width: 100%;
+    }
+    .composition__row_description .composition__column:first-of-type {
+        width: 100%;
+    }
+    .composition__row_description p {
+        font-size: 14px;
+        margin-top: 0;
+    }
+    .composition__row_description {
+        margin-top: 20px;
+    }
+    .composition__impact {
+        max-width: unset;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+    .composition__impact picture {
+        min-width: 80px;
+        width: 80px;
+        height: 80px;
+    }
+    .composition__impact picture:after {
+        width: 85px;
+        height: 85px;
+    }
+    .composition__row .composition__impact p {
+        font-size: 14px;
+        text-align: left;
+        margin: 0 0 0 15px;
+    }
+    .composition__row_slider h2 {
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+    .composition__row_slider .slide {
+        outline: none;
+    }
+    .composition .slider-arrow {
+        display: flex;
+    }
+    .doctors-comments .images-container .column:not(.column_middle-img) {
+        display: none;
+    }
+    .doctors-comments .images-container .column_middle-img {
+        width: 100%;
+    }
+    .doctors-comments {
+        margin-top: 60px;
+    }
+    .doctors-comments cite,
+    .doctors-comments blockquote {
+        font-size: 14px;
+        margin-top: 15px;
+        text-align: left;
+    }
+    .clinical-trials .slide {
+        max-width: unset;
+        width: 100%;
+        outline: none;
+    }
+    .clinical-trials .container:nth-child(2) {
+        position: relative;
+    }
+    .clinical-trials .slider-arrow {
+        display: flex;
+        top: 90px;
+    }
+    .clinical-trials .slider-arrow_next {
+        right: 20px;
+    }
+    .clinical-trials .slider-arrow_pre {
+        left: 20px;
+    }
+    .clinical-trials h2 {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+    .clinical-trials .container:first-of-type p {
+        font-size: 14px;
+    }
+    .clinical-trials h3 {
+        font-size: 14px;
+        margin: 10px 0 15px;
+    }
+    .clinical-trials .slide {
+        margin-bottom: 30px;
+    }
+    .clinical-trials__bg {
+        display: none;
+    }
+    .statistics-container {
+        width: 100%;
+    }
+    .statistics p {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    .statistics .percent {
+        font-size: 14px;
+    }
+    .clinical-trials__column:not(.slider) {
+        margin-top: 40px;
+    }
+    .mode-application h2 {
+        font-size: 28px;
+        font-weight: 800;
+        margin: 0 0 10px;
+    }
+    .mode-application {
+        padding: 55px 0 20px;
+    }
+    .mode-application li {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .mode-application li:after {
+        top: 4px;
+    }
+    .mode-application li:last-of-type {
+        margin-bottom: 20px;
+    }
+    .mode-application p .color {
+        display: block;
+    }
+    .mode-application p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.43;
+    }
+    .mode-application p:first-of-type {
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .reviews {
+        padding-top: 25px;
+    }
+    .reviews h2 {
+        font-size: 14px;
+    }
+    .reviews .slide{
+        display: block;
+    }
+    .reviews .slide__column {
+        width: 100%;
+        max-width: 100%;
+    }
+    .reviews .slide__column:last-of-type {
+        width: 100%;
+        max-width: 100%;
+        padding: 25px;
+        box-sizing: border-box;
+    }
+    .reviews .slider {
+        width: 100%;
+    }
+    .reviews .slider-arrow {
+        display: none;
+    }
+    .reviews h3 {
+        margin: 0 0 15px;
+    }
+    .reviews cite {
+        margin: 0;
+    }
+    .effect-after-application .arrow {
+        display: none;
+    }
+    .effect-after-application .stage {
+        margin: 0;
+    }
+    .effect-after-application__row {
+        margin-bottom: 0;
+    }
+    .effect-after-application__column {
+        position: static;
+        margin-bottom: 45px;
+    }
+    .effect-after-application__row:nth-of-type(2) .effect-after-application__column:nth-of-type(2) {
+        margin-top: 0;
+    }
+    .effect-after-application__row:nth-of-type(2) .effect-after-application__column:first-of-type {
+        margin-bottom: 0;
+    }
+    .effect-after-application__row:last-of-type .effect-after-application__column:first-of-type {
+        margin-bottom: 0;
+    }
+    .effect-after-application__row:last-of-type .effect-after-application__column:last-of-type {
+        margin-bottom: 70px;
+    }
+    .effect-after-application {
+        padding-top: 180px;
+    }
+    .effect-after-application .container {
+        position: relative;
+    }
+    .effect-after-application picture {
+        position: absolute;
+        top: -140px;
+        left: 50%;
+        transform: translateX(-50%);
+        max-width: calc(100% - 40px);
+        width: 100%;
+        height: 230px;
+    }
+    .operating-principle__row picture img,
+    .effect-after-application picture img {
+        position: absolute;
+        height: 100%;
+        object-fit: contain;
+    }
+    .effect-after-application p {
+        font-size: 14px;
+    }
+    .effect-after-application .stage__day {
+        font-size: 20px;
+    }
+    .operating-principle_footer .container > h2 {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    .operating-principle ol {
+        max-width: 390px;
+        width: 100%;
+    }
+    .operating-principle ol li {
+        padding: 15px 35px 15px 40px;
+    }
+    .operating-principle_footer {
+        padding-bottom: 0;
+    }
+    .slider-arrow:hover {
+        background-color: transparent;
+    }
+    .slider-arrow:hover svg {
+        fill: #e15182;
+    }
+    .operating-principle_footer .operating-principle__column:first-of-type {
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+}   
+
+@media (max-width: 320px) {
+    .clinical-trials .slider-arrow {
+        display: none;
+    }
+}
